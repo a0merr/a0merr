@@ -2,7 +2,7 @@
 
 I’m currently learning C++ and Java Languages
 I’m looking for help with finding my first Co-op/Internship position 
-How to reach me: On my Linkin profile [here](https://www.linkedin.com/in/andrew-merritt-ab425537a/)
+How to reach me: On my Linkedin profile [here](https://www.linkedin.com/in/andrew-merritt-ab425537a/)
 
 <!--
 **a0merr/a0merr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
