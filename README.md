@@ -1,10 +1,38 @@
- My name is Andrew, and I'm currently studying at the University of Louisville for Undergrad from computer science and my expected graduation timeframe is May of 2028.
+# Andrew Merritt 👋
 
-- 🌱 I’m currently learning C++ and Java Languages
-  
-- 🤔 I’m looking for help with finding my first Co-op/Internship position
-  
-- 📫 How to reach me: On my Linkedin profile [here](https://www.linkedin.com/in/andrew-merritt-ab425537a/)
+🎓 Computer Science student at the University of Louisville (J.B. Speed School of Engineering)  
+📍 Louisville, KY | GPA: 3.62  
+🗓️ Expected Graduation: May 2028  
+💼 Seeking: Software Development / Application Programmer Analyst Internship  
+
+---
+
+## 🛠️ Skills
+- **Languages:** Python, C, C++, C#  
+- **Learning:** Java, JavaScript, SQL  
+- **Concepts:** OOP, Data Structures, Programming Design  
+- **Tools:** Git, GitHub  
+
+---
+
+## 📂 Featured Project
+🎮 **Rock, Paper, Scissors – Python**  
+- Console-based game using loops and conditionals  
+- Thoroughly tested and documented with an 18-page explanation  
+
+---
+
+## 🏆 Honors & Leadership
+- **Dean’s List** – Fall 2024, Fall 2025  
+- **First Year Leadership Program** (Top 10% selected)
+
+---
+
+## 📫 Contact
+📧 a0merr05@louisville.edu  
+🔗 LinkedIn: linkedin.com/in/andrew-merritt
+
+
 
 <!--
 **a0merr/a0merr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
