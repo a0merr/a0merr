@@ -30,7 +30,8 @@
 
 ## 📫 Contact
 📧 a0merr05@louisville.edu  
-🔗 LinkedIn: linkedin.com/in/andrew-merritt
+🔗 LinkedIn: https://www.linkedin.com/in/andrew-merritt
+
 
 
 
