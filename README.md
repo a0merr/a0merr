@@ -41,7 +41,7 @@ I'm a Computer Science student at the University of Louisville with a **3.62 GPA
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 
-**Tools & Concepts**
+**Tools**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
@@ -90,17 +90,6 @@ Console game with live scoreboard, win rate tracking, and full input validation.
 </td>
 </tr>
 </table>
-
----
-
-### 📊 GitHub Stats
-
-<div align="center">
-
-![Andrew's GitHub Stats](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&theme=tokyonight&hide_border=true)
-
-</div>
 
 ---
 
