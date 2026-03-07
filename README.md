@@ -82,7 +82,7 @@ Template-based sorted array list (`ASList<T>`) that reads and alphabetically sor
 </td>
 <td width="50%" valign="top">
 
-#### 🎮 Rock, Paper, Scissors
+#### 🎮 [Rock, Paper, Scissors](https://github.com/a0merr/CSE-120-Final-Project)
 **Python**
 
 Console game with live scoreboard, win rate tracking, and full input validation. Includes an 18-page technical document covering program structure, control flow, and testing methodology.
