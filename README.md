@@ -2,10 +2,10 @@
 
 # Andrew Merritt
 
-**Computer Science Student · University of Louisville**  
+**Computer Science Student - University of Louisville**
 J.B. Speed School of Engineering
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab425537a/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-BA6C27?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab42553?a/)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/a0merr)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:a0merr05@louisville.edu)
 
@@ -56,6 +56,42 @@ I'm a Computer Science student at the University of Louisville with a **3.62 GPA
 <tr>
 <td width="50%" valign="top">
 
+#### 🧠 [Smart Meeting Summarizer](https://github.com/a0merr/Smart-Meeting-Summarizer)
+**Python · NLP · AI**
+
+AI-powered tool that automatically generates concise summaries from meeting transcripts. Extracts key discussion points, decisions, and action items to streamline post-meeting workflows.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🔬 [Auto Research for Small Language Models](https://github.com/a0merr/auto-research-for-small-language-model-)
+**Python · Machine Learning · NLP**
+
+Automated research pipeline designed for small language models. Explores training, fine-tuning, and evaluation techniques optimized for lightweight model architectures.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🏆 [IDD Programming Challenge 2026](https://github.com/a0merr/IDD_Programming_Challenge_2026)
+**Programming Challenge · Competitive Coding**
+
+Solutions and implementations for the 2026 IDD Programming Challenge. Demonstrates algorithmic problem-solving, data structures, and efficient coding under competition constraints.
+
+</td>
+<td width="50%" valign="top">
+
+#### 🕹️ [Arcade](https://github.com/a0merr/Arcade)
+**Python · Game Development**
+
+Collection of classic arcade-style games built from scratch. Features interactive gameplay, score tracking, and modular design patterns.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 #### 💰 [Mock Personal Finance Dashboard](https://github.com/a0merr/Mock-Personal-Finance-Dashboard-APP)
 **React · TypeScript · CSS**
 
@@ -74,7 +110,7 @@ Secure password generator with customizable length and character types. Uses `st
 <tr>
 <td width="50%" valign="top">
 
-#### 🌍 [ProPart1 – Country Data Sorter](https://github.com/a0merr/AndrewMerritt_ProPart1-)
+#### 🌍 [ProPart1 – Country Data Sorter](https://github.com/a0merr/AndrewMerritt-ProPart1-)
 **C++ · Templates · File I/O**
 
 Template-based sorted array list (`ASList<T>`) that reads and alphabetically sorts 191 countries by literacy rate and GDP per capita from a CSV file. Demonstrates generic programming and operator overloading.
@@ -95,7 +131,8 @@ Console game with live scoreboard, win rate tracking, and full input validation.
 
 <div align="center">
 
-*Open to internship opportunities — feel free to reach out!*  
+*Open to internship opportunities — feel free to reach out!*
+
 📧 a0merr05@louisville.edu
 
 </div>
