@@ -2,10 +2,10 @@
 
 # Andrew Merritt
 
-**Computer Science Student - University of Louisville**
+**Computer Science Student — University of Louisville**
 J.B. Speed School of Engineering
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-BA6C27?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab42553?a/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-BA6C27?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab42553)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/a0merr)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:a0merr05@louisville.edu)
 
@@ -20,7 +20,6 @@ I'm a Computer Science student at the University of Louisville with a **3.62 GPA
 - 📍 Louisville, KY
 - 🏅 Dean's List — Fall 2024, Fall 2025
 - 👥 First Year Leadership Program — Top 10% of class
-- 🌱 Currently learning Java, SQL, and React
 
 ---
 
@@ -34,7 +33,7 @@ I'm a Computer Science student at the University of Louisville with a **3.62 GPA
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 
-**Learning**
+**Currently Learning**
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
@@ -47,6 +46,17 @@ I'm a Computer Science student at the University of Louisville with a **3.62 GPA
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+
+![Andrew's GitHub Stats](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&theme=dark&hide_border=true&count_private=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&theme=dark&hide_border=true)
+
+</div>
 
 ---
 
