@@ -49,17 +49,6 @@ I'm a Computer Science student at the University of Louisville with a **3.62 GPA
 
 ---
 
-### 📊 GitHub Stats
-
-<div align="center">
-
-![Andrew's GitHub Stats](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&theme=dark&hide_border=true&count_private=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&theme=dark&hide_border=true)
-
-</div>
-
----
-
 ### 📂 Featured Projects
 
 <table>
