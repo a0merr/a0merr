@@ -7,12 +7,12 @@ J.B. Speed School of Engineering
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Software+Developer;Quant+%26+AI+Enthusiast;Open+to+Internships)](https://github.com/a0merr)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-BA6C27?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab425537a)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab425537a)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/a0merr)
-[![Email — School](https://img.shields.io/badge/School_Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:a0merr05@louisville.edu)
-[![Email — Personal](https://img.shields.io/badge/Personal_Email-0A66C2?style=flat&logo=maildotru&logoColor=white)](mailto:andrew@merritthome.com)
-
-![Profile Views](https://komarev.com/ghpvc/?username=a0merr&color=blue&style=flat&label=Profile+Views)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:a0merr05@louisville.edu)
+<!-- TODO: add a public résumé link (e.g. a PDF in this repo or a Drive link), then uncomment:
+[![Résumé](https://img.shields.io/badge/Résumé-2ea44f?style=flat&logo=readthedocs&logoColor=white)](RESUME_URL_HERE)
+-->
 
 </div>
 
@@ -62,26 +62,26 @@ I'm a Computer Science student at the University of Louisville with a **3.62 GPA
 
 ### 📂 Featured Projects
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
 #### 🤖 [Auto-Research for Small Language Models](https://github.com/a0merr/auto-research-for-small-language-model-)
 **Python · PyTorch · Anthropic API**
 
 Autonomous ML research loop that continuously trains a small GPT and lets an AI agent (Claude) read each experiment's results, rewrite the hyperparameters, and re-run — no human in the loop. Ships a live browser dashboard with real-time loss curves, full experiment history, and the agent's reasoning for every change. Runs 20+ iterations overnight.
 
-</td>
+<!-- TODO (highest-impact change): drop a GIF/screenshot of the live dashboard into the repo, then add it here:
+<p align="center"><img src="DASHBOARD_GIF_OR_SCREENSHOT_URL" width="80%" alt="Auto-Research live dashboard"></p>
+-->
+
+<table>
+<tr>
 <td width="50%" valign="top">
 
 #### 🧠 [Smart Meeting Summarizer](https://github.com/a0merr/Smart-Meeting-Summarizer)
 **React · Node.js · Express**
 
 Full-stack web app for turning meeting content into concise summaries. React front end backed by a Node/Express server — an end-to-end build covering UI, API, and client–server data flow.
+<!-- TODO: if deployed, add a "▶ Live Demo" link here -->
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### 🕹️ [Terminal Arcade](https://github.com/a0merr/Arcade)
@@ -90,16 +90,17 @@ Full-stack web app for turning meeting content into concise summaries. React fro
 Snake and Tetris rebuilt from scratch in the terminal with a custom ANSI rendering engine and threaded background input. Tetris includes a 7-bag randomizer, ghost piece, hard drop, and next-piece preview. Persistent high scores, zero external dependencies, cross-platform (Windows/macOS/Linux).
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 #### 💰 [Mock Personal Finance Dashboard](https://github.com/a0merr/Mock-Personal-Finance-Dashboard-APP)
 **React · TypeScript · CSS**
 
 Component-based financial dashboard with account balances, summary cards, charts, and transaction history. Built to practice type-safe React and reusable, modular UI components (70%+ TypeScript).
+<!-- TODO: if deployed, add a "▶ Live Demo" link here -->
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 #### 🌍 [ProPart1 – Country Data Sorter](https://github.com/a0merr/AndrewMerritt_ProPart1-)
@@ -108,34 +109,10 @@ Component-based financial dashboard with account balances, summary cards, charts
 Template-based sorted array list (`ASList<T>`) that reads and alphabetically sorts 191 countries by literacy rate and GDP per capita from a CSV file. Demonstrates generic programming and operator overloading.
 
 </td>
-<td width="50%" valign="top">
-
-#### 🔐 [Mock Password Generator](https://github.com/a0merr/Mock-Password-Generator-)
-**C++ · OOP**
-
-Secure password generator with customizable length and character types. Built around a clean class-based design split across header/source files, with input validation and randomized character generation.
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 🏆 [IDD Programming Challenge 2026](https://github.com/a0merr/IDD_Programming_Challenge_2026)
-**TypeScript · JavaScript · CSS**
-
-Web application built for the 2026 IDD Programming Challenge, wired up with a GitHub Actions CI workflow. A TypeScript-first front-end project delivered under competition constraints.
-
-</td>
-<td width="50%" valign="top">
-
-#### 🎮 [Rock, Paper, Scissors](https://github.com/a0merr/CSE-120-Final-Project)
-**Python**
-
-Console game with live scoreboard, win rate tracking, and full input validation. Includes an 18-page technical document covering program structure, control flow, and testing methodology.
-
-</td>
 </tr>
 </table>
+
+**More:** [IDD Programming Challenge 2026](https://github.com/a0merr/IDD_Programming_Challenge_2026) (TypeScript, GitHub Actions CI) · [Mock Password Generator](https://github.com/a0merr/Mock-Password-Generator-) (C++ OOP) · [Rock, Paper, Scissors](https://github.com/a0merr/CSE-120-Final-Project) (Python)
 
 ---
 
@@ -159,8 +136,6 @@ Happy to walk through any of these on request.
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=graywhite)
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=a0merr&theme=graywhite&no-frame=true&column=7&margin-w=8&margin-h=8)
-
 </div>
 
 ---
@@ -169,6 +144,6 @@ Happy to walk through any of these on request.
 
 *Open to internship opportunities — feel free to reach out!*
 
-📧 **School:** a0merr05@louisville.edu &nbsp;·&nbsp; **Personal:** andrew@merritthome.com
+📧 **a0merr05@louisville.edu**
 
 </div>
