@@ -5,7 +5,7 @@
 **Computer Science Student — University of Louisville**
 J.B. Speed School of Engineering
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-BA6C27?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab42553)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-BA6C27?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab425537a)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/a0merr)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:a0merr05@louisville.edu)
 
@@ -109,7 +109,7 @@ Secure password generator with customizable length and character types. Uses `st
 <tr>
 <td width="50%" valign="top">
 
-#### 🌍 [ProPart1 – Country Data Sorter](https://github.com/a0merr/AndrewMerritt-ProPart1-)
+#### 🌍 [ProPart1 – Country Data Sorter](https://github.com/a0merr/AndrewMerritt_ProPart1-)
 **C++ · Templates · File I/O**
 
 Template-based sorted array list (`ASList<T>`) that reads and alphabetically sorts 191 countries by literacy rate and GDP per capita from a CSV file. Demonstrates generic programming and operator overloading.
@@ -125,6 +125,19 @@ Console game with live scoreboard, win rate tracking, and full input validation.
 </td>
 </tr>
 </table>
+
+---
+
+### 📊 GitHub Stats
+
+<div align="center">
+
+![Andrew's GitHub stats](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=graywhite)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&theme=graywhite)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=a0merr&hide_border=true&theme=graywhite)
+
+</div>
 
 ---
 
