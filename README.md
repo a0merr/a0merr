@@ -23,7 +23,7 @@ J.B. Speed School of Engineering
 I'm a Computer Science student at the University of Louisville with a **3.62 GPA**, expected to graduate in **May 2028**. I'm passionate about building clean, efficient software and am actively seeking a **Software Development / Application Programmer Analyst Internship**.
 
 - 📍 Louisville, KY
-- 🏅 Dean's List — Fall 2024, Fall 2025
+- 🏅 Dean's List — Fall 2024, Fall 2025, Spring 2026
 - 👥 First Year Leadership Program — Top 10% of class
 
 ---
