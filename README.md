@@ -5,7 +5,7 @@
 **Computer Science Student — University of Louisville**
 J.B. Speed School of Engineering
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Software+Developer;Quant+%26+AI+Enthusiast;Open+to+Internships)](https://github.com/a0merr)
+[![Roles Andrew works on: Computer Science Student, Software Developer, Quant & AI Enthusiast, seeking a Summer 2027 internship](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Software+Developer;Quant+%26+AI+Enthusiast;Seeking+a+Summer+2027+Internship)](https://github.com/a0merr)
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab425537a)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/a0merr)
@@ -20,9 +20,10 @@ J.B. Speed School of Engineering
 
 ### 👋 About Me
 
-I'm a Computer Science student at the University of Louisville with a **3.62 GPA**, expected to graduate in **May 2028**. I'm passionate about building clean, efficient software and am actively seeking a **Software Development / Application Programmer Analyst Internship**.
+CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028**) who likes shipping clean, efficient software — from autonomous AI research agents to quant trading models. **Actively seeking a Summer 2027 Software Development / Application Programmer Analyst internship.**
 
 - 📍 Louisville, KY
+- 🔭 Currently building autonomous AI research agents and quantitative trading models *(more under [Other Work](#-other-work))*
 - 🏅 Dean's List — Fall 2024, Fall 2025, Spring 2026
 - 👥 First Year Leadership Program — Top 10% of class
 
@@ -65,10 +66,10 @@ I'm a Computer Science student at the University of Louisville with a **3.62 GPA
 #### 🤖 [Auto-Research for Small Language Models](https://github.com/a0merr/auto-research-for-small-language-model-)
 **Python · PyTorch · Anthropic API**
 
-Autonomous ML research loop that continuously trains a small GPT and lets an AI agent (Claude) read each experiment's results, rewrite the hyperparameters, and re-run — no human in the loop. Ships a live browser dashboard with real-time loss curves, full experiment history, and the agent's reasoning for every change. Runs 20+ iterations overnight.
+An autonomous ML research loop with no human in the loop: it trains a small GPT, lets an AI agent (Claude) read each run's results, rewrite the hyperparameters, and re-run — **20+ self-directed iterations overnight**. A live browser dashboard streams real-time loss curves, full experiment history, and the agent's reasoning behind every change.
 
 <!-- TODO (highest-impact change): drop a GIF/screenshot of the live dashboard into the repo, then add it here:
-<p align="center"><img src="DASHBOARD_GIF_OR_SCREENSHOT_URL" width="80%" alt="Auto-Research live dashboard"></p>
+<p align="center"><img src="DASHBOARD_GIF_OR_SCREENSHOT_URL" width="80%" alt="Auto-Research live dashboard streaming loss curves and the agent's reasoning"></p>
 -->
 
 <table>
@@ -78,7 +79,7 @@ Autonomous ML research loop that continuously trains a small GPT and lets an AI 
 #### 🧠 [Smart Meeting Summarizer](https://github.com/a0merr/Smart-Meeting-Summarizer)
 **React · Node.js · Express**
 
-Full-stack web app for turning meeting content into concise summaries. React front end backed by a Node/Express server — an end-to-end build covering UI, API, and client–server data flow.
+Full-stack app that turns raw meeting content into concise summaries. React front end on a Node/Express API — end-to-end ownership of UI, API design, and client–server data flow.
 <!-- TODO: if deployed, add a "▶ Live Demo" link here -->
 
 </td>
@@ -87,7 +88,7 @@ Full-stack web app for turning meeting content into concise summaries. React fro
 #### 🕹️ [Terminal Arcade](https://github.com/a0merr/Arcade)
 **Python · Standard Library Only**
 
-Snake and Tetris rebuilt from scratch in the terminal with a custom ANSI rendering engine and threaded background input. Tetris includes a 7-bag randomizer, ghost piece, hard drop, and next-piece preview. Persistent high scores, zero external dependencies, cross-platform (Windows/macOS/Linux).
+Snake and Tetris rebuilt from scratch in the terminal on a custom ANSI rendering engine with threaded input. Tetris ships a 7-bag randomizer, ghost piece, hard drop, and next-piece preview. Persistent high scores, **zero dependencies**, cross-platform.
 
 </td>
 </tr>
@@ -97,7 +98,7 @@ Snake and Tetris rebuilt from scratch in the terminal with a custom ANSI renderi
 #### 💰 [Mock Personal Finance Dashboard](https://github.com/a0merr/Mock-Personal-Finance-Dashboard-APP)
 **React · TypeScript · CSS**
 
-Component-based financial dashboard with account balances, summary cards, charts, and transaction history. Built to practice type-safe React and reusable, modular UI components (70%+ TypeScript).
+Type-safe React dashboard (**70%+ TypeScript**) with account balances, summary cards, charts, and transaction history — built around reusable, modular components.
 <!-- TODO: if deployed, add a "▶ Live Demo" link here -->
 
 </td>
@@ -106,7 +107,7 @@ Component-based financial dashboard with account balances, summary cards, charts
 #### 🌍 [ProPart1 – Country Data Sorter](https://github.com/a0merr/AndrewMerritt_ProPart1-)
 **C++ · Templates · File I/O**
 
-Template-based sorted array list (`ASList<T>`) that reads and alphabetically sorts 191 countries by literacy rate and GDP per capita from a CSV file. Demonstrates generic programming and operator overloading.
+Generic sorted array list (`ASList<T>`) that reads and ranks **191 countries** by literacy rate and GDP per capita from CSV — a study in templates and operator overloading.
 
 </td>
 </tr>
@@ -131,10 +132,24 @@ Happy to walk through any of these on request.
 
 <div align="center">
 
-![Andrew's GitHub stats](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=graywhite)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&theme=graywhite)
+![Andrew Merritt's GitHub stats — total commits, pull requests, issues, and stars earned](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=graywhite)
+![Andrew Merritt's most-used programming languages across all repositories](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&theme=graywhite)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=graywhite)
+![Andrew Merritt's current and longest GitHub contribution streak](https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=graywhite)
+
+</div>
+
+---
+
+### 🐍 Contribution Graph
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/a0merr/a0merr/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/a0merr/a0merr/output/github-contribution-grid-snake.svg">
+  <img alt="Snake animation eating the squares of Andrew Merritt's GitHub contribution graph" src="https://raw.githubusercontent.com/a0merr/a0merr/output/github-contribution-grid-snake.svg">
+</picture>
 
 </div>
 
@@ -142,7 +157,7 @@ Happy to walk through any of these on request.
 
 <div align="center">
 
-*Open to internship opportunities — feel free to reach out!*
+*Available for a **Summer 2027** internship — feel free to reach out!*
 
 📧 **a0merr05@louisville.edu**
 
