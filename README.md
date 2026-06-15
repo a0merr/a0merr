@@ -2,7 +2,7 @@
 
 # Andrew Merritt
 
-**Computer Science Student — University of Louisville**
+**Computer Science Student — University of Louisville**<br>
 J.B. Speed School of Engineering
 
 [![Roles Andrew works on: Computer Science Student, Software Developer, Quant & AI Enthusiast, seeking a Summer 2027 internship](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Software+Developer;Quant+%26+AI+Enthusiast;Seeking+a+Summer+2027+Internship)](https://github.com/a0merr)
@@ -128,14 +128,11 @@ Happy to walk through any of these on request.
 
 ---
 
-### 📊 GitHub Stats
+### 📊 Most-Used Languages
 
 <div align="center">
 
-![Andrew Merritt's GitHub stats — total commits, pull requests, issues, and stars earned](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=graywhite)
-![Andrew Merritt's most-used programming languages across all repositories](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&theme=graywhite)
-
-![Andrew Merritt's current and longest GitHub contribution streak](https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=graywhite)
+![Andrew Merritt's most-used programming languages across all repositories](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&langs_count=8&theme=graywhite)
 
 </div>
 
