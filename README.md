@@ -10,9 +10,8 @@ J.B. Speed School of Engineering
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab425537a)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/a0merr)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:a0merr05@louisville.edu)
-<!-- TODO: add a public résumé link (e.g. a PDF in this repo or a Drive link), then uncomment:
-[![Résumé](https://img.shields.io/badge/Résumé-2ea44f?style=flat&logo=readthedocs&logoColor=white)](RESUME_URL_HERE)
--->
+
+![Profile Views](https://komarev.com/ghpvc/?username=a0merr&color=blue&style=flat&label=Profile+Views)
 
 </div>
 
@@ -68,10 +67,6 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028*
 
 An autonomous ML research loop with no human in the loop: it trains a small GPT, lets an AI agent (Claude) read each run's results, rewrite the hyperparameters, and re-run — **20+ self-directed iterations overnight**. A live browser dashboard streams real-time loss curves, full experiment history, and the agent's reasoning behind every change.
 
-<!-- TODO (highest-impact change): drop a GIF/screenshot of the live dashboard into the repo, then add it here:
-<p align="center"><img src="DASHBOARD_GIF_OR_SCREENSHOT_URL" width="80%" alt="Auto-Research live dashboard streaming loss curves and the agent's reasoning"></p>
--->
-
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -80,7 +75,6 @@ An autonomous ML research loop with no human in the loop: it trains a small GPT,
 **React · Node.js · Express**
 
 Full-stack app that turns raw meeting content into concise summaries. React front end on a Node/Express API — end-to-end ownership of UI, API design, and client–server data flow.
-<!-- TODO: if deployed, add a "▶ Live Demo" link here -->
 
 </td>
 <td width="50%" valign="top">
@@ -99,7 +93,6 @@ Snake and Tetris rebuilt from scratch in the terminal on a custom ANSI rendering
 **React · TypeScript · CSS**
 
 Type-safe React dashboard (**70%+ TypeScript**) with account balances, summary cards, charts, and transaction history — built around reusable, modular components.
-<!-- TODO: if deployed, add a "▶ Live Demo" link here -->
 
 </td>
 <td width="50%" valign="top">
@@ -198,11 +191,16 @@ Happy to walk through any of these on request.
 
 ---
 
-### 📊 Most-Used Languages
+### 📊 GitHub Stats
 
 <div align="center">
 
-![Andrew Merritt's most-used programming languages across all repositories](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&langs_count=8&theme=graywhite)
+![Andrew's GitHub stats](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=graywhite)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&langs_count=8&theme=graywhite)
+
+![GitHub Streak](https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=graywhite)
+
+![Trophies](https://github-profile-trophy.vercel.app/?username=a0merr&theme=graywhite&no-frame=true&column=7&margin-w=8&margin-h=8)
 
 </div>
 
