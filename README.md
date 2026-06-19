@@ -135,6 +135,43 @@ Happy to walk through any of these on request.
 
 <br>
 
+**Claude**
+
+![Claude 101](https://img.shields.io/badge/Claude_101-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![Claude Code 101](https://img.shields.io/badge/Claude_Code_101-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![Claude Platform 101](https://img.shields.io/badge/Claude_Platform_101-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![Claude Code in Action](https://img.shields.io/badge/Claude_Code_in_Action-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![Building with the Claude API](https://img.shields.io/badge/Building_with_the_Claude_API-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![Intro to Claude Cowork](https://img.shields.io/badge/Intro_to_Claude_Cowork-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+
+**Agents**
+
+![Intro to Agent Skills](https://img.shields.io/badge/Intro_to_Agent_Skills-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![Introduction to Subagents](https://img.shields.io/badge/Introduction_to_Subagents-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+
+**Model Context Protocol**
+
+![Intro to MCP](https://img.shields.io/badge/Intro_to_MCP-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![MCP: Advanced Topics](https://img.shields.io/badge/MCP%3A_Advanced_Topics-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+
+**Cloud Platforms**
+
+![Claude in Amazon Bedrock](https://img.shields.io/badge/Claude_in_Amazon_Bedrock-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![Claude with Vertex AI](https://img.shields.io/badge/Claude_with_Vertex_AI-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+
+**AI Fluency**
+
+![AI Capabilities & Limitations](https://img.shields.io/badge/AI_Capabilities_%26_Limitations-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![AI Fluency: Framework & Foundations](https://img.shields.io/badge/AI_Fluency%3A_Framework_%26_Foundations-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![AI Fluency for Students](https://img.shields.io/badge/AI_Fluency_for_Students-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![AI Fluency for Small Businesses](https://img.shields.io/badge/AI_Fluency_for_Small_Businesses-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![AI Fluency for Nonprofits](https://img.shields.io/badge/AI_Fluency_for_Nonprofits-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+
+<details>
+<summary>Credential IDs</summary>
+
+<br>
+
 | Certificate | Credential ID |
 |---|---|
 | Building with the Claude API | f6qkmdnf2zoe |
@@ -154,6 +191,8 @@ Happy to walk through any of these on request.
 | AI Fluency for Students | 4cwqsiban77t |
 | AI Fluency for Small Businesses | y9xbpqn26h99 |
 | AI Fluency for Nonprofits | 4exfindtw6rn |
+
+</details>
 
 </details>
 
