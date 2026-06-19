@@ -133,6 +133,17 @@ Happy to walk through any of these on request.
 ### 🏅 Licenses & Certifications
 
 <details>
+<summary><strong>Google Cloud — 3 Completion Badges · Jun 2026</strong></summary>
+
+<br>
+
+![Introduction to Generative AI](https://img.shields.io/badge/Intro_to_Generative_AI-Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Introduction to Large Language Models](https://img.shields.io/badge/Intro_to_Large_Language_Models-Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Introduction to Responsible AI](https://img.shields.io/badge/Intro_to_Responsible_AI-Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+
+</details>
+
+<details>
 <summary><strong>Anthropic — 17 Certifications · Jun 2026</strong></summary>
 
 <br>
