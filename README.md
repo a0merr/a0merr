@@ -200,8 +200,6 @@ Happy to walk through any of these on request.
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=graywhite)
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=a0merr&theme=flat&no-frame=true&column=7&margin-w=8&margin-h=8)
-
 </div>
 
 ---
