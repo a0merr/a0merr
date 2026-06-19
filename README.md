@@ -128,6 +128,37 @@ Happy to walk through any of these on request.
 
 ---
 
+### 🏅 Licenses & Certifications
+
+<details>
+<summary><strong>Anthropic — 17 Certifications · Jun 2026</strong></summary>
+
+<br>
+
+| Certificate | Credential ID |
+|---|---|
+| Building with the Claude API | f6qkmdnf2zoe |
+| Claude Code in Action | d6nyav6yuhpy |
+| Claude Code 101 | sprzzd7suibi |
+| Claude 101 | xcr9837c5gvg |
+| Claude Platform 101 | s8dmxzydkezb |
+| Claude in Amazon Bedrock | g2ttazip2wv4 |
+| Claude with Google Cloud's Vertex AI | wbu3cuce7ugp |
+| Introduction to Model Context Protocol | upg394ou3crp |
+| Model Context Protocol: Advanced Topics | xykm4crh4ay3 |
+| Introduction to Claude Cowork | grphy65wkbp7 |
+| Introduction to Agent Skills | 2phz3y39pwvs |
+| Introduction to Subagents | b5xjbyuj9def |
+| AI Capabilities and Limitations | 69whjxaog862 |
+| AI Fluency Framework & Foundations | csssuyoh9wnf |
+| AI Fluency for Students | 4cwqsiban77t |
+| AI Fluency for Small Businesses | y9xbpqn26h99 |
+| AI Fluency for Nonprofits | 4exfindtw6rn |
+
+</details>
+
+---
+
 ### 📊 Most-Used Languages
 
 <div align="center">
