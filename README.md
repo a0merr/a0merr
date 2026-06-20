@@ -11,7 +11,7 @@ J.B. Speed School of Engineering
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/a0merr)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:a0merr05@louisville.edu)
 
-![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fa0merr&count_bg=%2379C83D&title_bg=%23555555&title=views&edge_flat=false)
+![Profile Views](https://komarev.com/ghpvc/?username=a0merr&color=blueviolet&style=flat)
 
 </div>
 
@@ -224,8 +224,8 @@ Generic sorted array list (`ASList<T>`) that reads and ranks **191 countries** b
 
 <div align="center">
 
-![Andrew's GitHub stats](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=tokyonight)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&hide=html,css,makefile)
+![Andrew's GitHub stats](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&hide=stars,prs,issues)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&hide=html,css,makefile,powershell)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight)
 
