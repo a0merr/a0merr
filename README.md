@@ -11,7 +11,7 @@ J.B. Speed School of Engineering
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/a0merr)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:a0merr05@louisville.edu)
 
-![Profile Views](https://visitor-badge.laobi.icu/badge?page_id=a0merr.a0merr)
+![Profile Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fa0merr&count_bg=%2379C83D&title_bg=%23555555&title=views&edge_flat=false)
 
 </div>
 
@@ -19,12 +19,10 @@ J.B. Speed School of Engineering
 
 ### 👋 About Me
 
-CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028**) who likes shipping clean, efficient software — from autonomous AI research agents to quant trading models. **Actively seeking a Summer 2027 Software Development / Application Programmer Analyst internship.**
+CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028**) who likes shipping clean, efficient software — from autonomous AI research agents to quant trading models.
 
 - 📍 Louisville, KY
 - 🔭 Currently building autonomous AI research agents and quantitative trading models *(more under [Other Work](#-other-work))*
-- 🏅 Dean's List — Fall 2024, Fall 2025, Spring 2026
-- 👥 First Year Leadership Program — Top 10% of class
 
 ---
 
@@ -37,6 +35,7 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028*
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
 **Frameworks & Runtimes**
 
@@ -47,13 +46,13 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028*
 **Currently Learning**
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 **AI / ML**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![Anthropic API](https://img.shields.io/badge/Anthropic_API-191919?style=flat&logo=anthropic&logoColor=white)
 
 **Tools**
@@ -61,6 +60,18 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028*
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+
+---
+
+### 🔒 Other Work
+
+Beyond the featured public repos, I build a lot in private — mostly around **quantitative trading and AI**:
+
+- **Quant / trading** — sports-betting models, prediction-market and Polymarket/Kalshi odds-mispricing analysis, and automated trading bots (Python).
+- **AI / agents** — a personal LLM-development sandbox, an OpenJarvis voice-assistant fork, and a self-developing *Hearts of Iron IV* AI (C#).
+
+Happy to walk through any of these on request.
 
 ---
 
@@ -119,14 +130,10 @@ Generic sorted array list (`ASList<T>`) that reads and ranks **191 countries** b
 
 ---
 
-### 🔒 Other Work
+### 🎓 Honors
 
-Beyond the featured public repos, I build a lot in private — mostly around **quantitative trading and AI**:
-
-- **Quant / trading** — sports-betting models, prediction-market and Polymarket/Kalshi odds-mispricing analysis, and automated trading bots (Python).
-- **AI / agents** — a personal LLM-development sandbox, an OpenJarvis voice-assistant fork, and a self-developing *Hearts of Iron IV* AI (C#).
-
-Happy to walk through any of these on request.
+- 🏅 Dean's List — Fall 2024, Fall 2025, Spring 2026
+- 👥 First Year Leadership Program — Top 10% of class
 
 ---
 
