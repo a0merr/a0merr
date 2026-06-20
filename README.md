@@ -23,6 +23,7 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028*
 
 - 📍 Louisville, KY
 - 🔭 Currently building autonomous AI research agents and quantitative trading models *(more under [Other Work](#-other-work))*
+- 💼 Seeking a **Summer 2027** Software Development internship — [reach out](mailto:a0merr05@louisville.edu)
 
 ---
 
@@ -43,7 +44,7 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028*
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 
-**Currently Learning**
+**Expanding**
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
@@ -61,6 +62,7 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028*
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 ---
 
@@ -71,7 +73,7 @@ Beyond the featured public repos, I build a lot in private — mostly around **q
 - **Quant / trading** — sports-betting models, prediction-market and Polymarket/Kalshi odds-mispricing analysis, and automated trading bots (Python).
 - **AI / agents** — a personal LLM-development sandbox, an OpenJarvis voice-assistant fork, and a self-developing *Hearts of Iron IV* AI (C#).
 
-Happy to walk through any of these on request.
+Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.edu).
 
 ---
 
@@ -109,7 +111,7 @@ Snake and Tetris rebuilt from scratch in the terminal on a custom ANSI rendering
 <tr>
 <td width="50%" valign="top">
 
-#### 💰 [Mock Personal Finance Dashboard](https://github.com/a0merr/Mock-Personal-Finance-Dashboard-APP)
+#### 💰 [Personal Finance Dashboard](https://github.com/a0merr/Mock-Personal-Finance-Dashboard-APP)
 **React · TypeScript · CSS**
 
 Type-safe React dashboard (**70%+ TypeScript**) with account balances, summary cards, charts, and transaction history — built around reusable, modular components.
@@ -126,7 +128,7 @@ Generic sorted array list (`ASList<T>`) that reads and ranks **191 countries** b
 </tr>
 </table>
 
-**More:** [IDD Programming Challenge 2026](https://github.com/a0merr/IDD_Programming_Challenge_2026) (TypeScript, GitHub Actions CI) · [Mock Password Generator](https://github.com/a0merr/Mock-Password-Generator-) (C++ OOP) · [Rock, Paper, Scissors](https://github.com/a0merr/CSE-120-Final-Project) (Python)
+**More:** [IDD Programming Challenge 2026](https://github.com/a0merr/IDD_Programming_Challenge_2026) (TypeScript, GitHub Actions CI) · [Password Generator](https://github.com/a0merr/Mock-Password-Generator-) (C++ OOP) · [Rock, Paper, Scissors](https://github.com/a0merr/CSE-120-Final-Project) (Python)
 
 ---
 
@@ -222,10 +224,10 @@ Generic sorted array list (`ASList<T>`) that reads and ranks **191 countries** b
 
 <div align="center">
 
-![Andrew's GitHub stats](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=graywhite)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&langs_count=8&theme=graywhite)
+![Andrew's GitHub stats](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=tokyonight)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&hide=html,css,makefile)
 
-![GitHub Streak](https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=graywhite)
+![GitHub Streak](https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight)
 
 </div>
 
