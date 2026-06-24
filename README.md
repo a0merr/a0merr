@@ -132,6 +132,12 @@ Generic sorted array list (`ASList<T>`) that reads and ranks **191 countries** b
 
 ---
 
+### 🌐 Open Source
+
+- **[SigmaHQ/sigma](https://github.com/SigmaHQ/sigma)** — *[open PR #6080](https://github.com/SigmaHQ/sigma/pull/6080) · pending review* — Pinned the CI test/validation dependencies into dedicated requirements files and added `pip` caching across the GitHub Actions workflows, so an unrelated upstream release can't break contributor PRs and CI stops re-downloading packages each run. Validated locally (Python 3.14): tests pass, `sigma check` clean, no detection rules touched.
+
+---
+
 ### 🎓 Honors
 
 - 🏅 Dean's List — Fall 2024, Fall 2025, Spring 2026
