@@ -19,7 +19,7 @@ J.B. Speed School of Engineering
 
 ### 👋 About Me
 
-CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028**) who likes shipping clean, efficient software — from autonomous AI research agents to quant trading models.
+I build autonomous AI systems — including a research agent that trains models, reads its own results, and rewrites its next experiment with no human in the loop. CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028**), shipping clean, efficient software across AI agents and quantitative trading.
 
 - 📍 Louisville, KY
 - 🔭 Currently building autonomous AI research agents and quantitative trading models *(more under [Other Work](#-other-work))*
