@@ -38,16 +38,17 @@ I build autonomous AI systems — including a research agent that trains models,
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 
 **Frameworks & Runtimes**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
 
 **Expanding**
 
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
 
 **AI / ML**
@@ -203,23 +204,23 @@ Snake and Tetris rebuilt from scratch in the terminal on a custom ANSI rendering
 
 | Certificate | Credential ID |
 |---|---|
-| Building with the Claude API | f6qkmdnf2zoe |
-| Claude Code in Action | d6nyav6yuhpy |
-| Claude Code 101 | sprzzd7suibi |
-| Claude 101 | xcr9837c5gvg |
-| Claude Platform 101 | s8dmxzydkezb |
-| Claude in Amazon Bedrock | g2ttazip2wv4 |
-| Claude with Google Cloud's Vertex AI | wbu3cuce7ugp |
-| Introduction to Model Context Protocol | upg394ou3crp |
-| Model Context Protocol: Advanced Topics | xykm4crh4ay3 |
-| Introduction to Claude Cowork | grphy65wkbp7 |
-| Introduction to Agent Skills | 2phz3y39pwvs |
-| Introduction to Subagents | b5xjbyuj9def |
-| AI Capabilities and Limitations | 69whjxaog862 |
-| AI Fluency Framework & Foundations | csssuyoh9wnf |
-| AI Fluency for Students | 4cwqsiban77t |
-| AI Fluency for Small Businesses | y9xbpqn26h99 |
-| AI Fluency for Nonprofits | 4exfindtw6rn |
+| Building with the Claude API | [f6qkmdnf2zoe ↗](https://verify.skilljar.com/c/f6qkmdnf2zoe) |
+| Claude Code in Action | [d6nyav6yuhpy ↗](https://verify.skilljar.com/c/d6nyav6yuhpy) |
+| Claude Code 101 | [sprzzd7suibi ↗](https://verify.skilljar.com/c/sprzzd7suibi) |
+| Claude 101 | [xcr9837c5gvg ↗](https://verify.skilljar.com/c/xcr9837c5gvg) |
+| Claude Platform 101 | [s8dmxzydkezb ↗](https://verify.skilljar.com/c/s8dmxzydkezb) |
+| Claude in Amazon Bedrock | [g2ttazip2wv4 ↗](https://verify.skilljar.com/c/g2ttazip2wv4) |
+| Claude with Vertex AI | [wbu3cuce7ugp ↗](https://verify.skilljar.com/c/wbu3cuce7ugp) |
+| Intro to MCP | [upg394ou3crp ↗](https://verify.skilljar.com/c/upg394ou3crp) |
+| MCP: Advanced Topics | [xykm4crh4ay3 ↗](https://verify.skilljar.com/c/xykm4crh4ay3) |
+| Intro to Claude Cowork | [grphy65wkbp7 ↗](https://verify.skilljar.com/c/grphy65wkbp7) |
+| Intro to Agent Skills | [2phz3y39pwvs ↗](https://verify.skilljar.com/c/2phz3y39pwvs) |
+| Introduction to Subagents | [b5xjbyuj9def ↗](https://verify.skilljar.com/c/b5xjbyuj9def) |
+| AI Capabilities & Limitations | [69whjxaog862 ↗](https://verify.skilljar.com/c/69whjxaog862) |
+| AI Fluency: Framework & Foundations | [csssuyoh9wnf ↗](https://verify.skilljar.com/c/csssuyoh9wnf) |
+| AI Fluency for Students | [4cwqsiban77t ↗](https://verify.skilljar.com/c/4cwqsiban77t) |
+| AI Fluency for Small Businesses | [y9xbpqn26h99 ↗](https://verify.skilljar.com/c/y9xbpqn26h99) |
+| AI Fluency for Nonprofits | [4exfindtw6rn ↗](https://verify.skilljar.com/c/4exfindtw6rn) |
 
 </details>
 
