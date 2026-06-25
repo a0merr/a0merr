@@ -129,7 +129,7 @@ Snake and Tetris rebuilt from scratch in the terminal on a custom ANSI rendering
 </tr>
 </table>
 
-**More:** [Smart Meeting Summarizer](https://github.com/a0merr/Smart-Meeting-Summarizer) (React/Node) · [Personal Finance Dashboard](https://github.com/a0merr/Mock-Personal-Finance-Dashboard-APP) (React/TS) · [Country Data Sorter](https://github.com/a0merr/country-data-sorter) (C++ templates) · [IDD Programming Challenge 2026](https://github.com/a0merr/IDD_Programming_Challenge_2026) (TypeScript, GitHub Actions CI) · [Password Generator](https://github.com/a0merr/password-generator) (C++ OOP)
+**More:** [Smart Meeting Summarizer](https://github.com/a0merr/Smart-Meeting-Summarizer) (React/Node) · [Personal Finance Dashboard](https://github.com/a0merr/finance-dashboard) (React/TS) · [Country Data Sorter](https://github.com/a0merr/country-data-sorter) (C++ templates) · [IDD Programming Challenge 2026](https://github.com/a0merr/IDD_Programming_Challenge_2026) (TypeScript, GitHub Actions CI) · [Password Generator](https://github.com/a0merr/password-generator) (C++ OOP)
 
 ---
 
