@@ -84,20 +84,38 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 <tr>
 <td colspan="2" valign="top">
 
-#### 🤖 [Auto-Research for Small Language Models](https://github.com/a0merr/auto-research-for-small-language-model-)
-**Python · PyTorch · Anthropic API**
+#### 🧪 [autolab](https://github.com/a0merr/autolab)
+**Python · LLM Agents · Reproducible ML**
 
-An autonomous ML research loop with no human in the loop: it trains a small GPT, lets an AI agent (Claude) read each run's results, rewrite the hyperparameters, and re-run — **20+ self-directed iterations overnight**. A live browser dashboard streams real-time loss curves, full experiment history, and the agent's reasoning behind every change.
+A framework that puts an LLM agent inside the ML research loop: it proposes a hypothesis, runs an experiment against **any model or task**, reads the results, and chooses the next run — every run **versioned and replayable to the exact same metric**. A plugin interface swaps in custom objectives, and the bundled demo drives a real search with **no API key, GPU, or training required**. The generalized successor to the Auto-Research loop below.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### 🧠 [Smart Meeting Summarizer](https://github.com/a0merr/Smart-Meeting-Summarizer)
-**React · Node.js · Express**
+#### 📉 [axiom-backtest](https://github.com/a0merr/axiom-backtest)
+**Python · Event-Driven · Quant**
 
-Full-stack app that turns raw meeting content into concise summaries. React front end on a Node/Express API — end-to-end ownership of UI, API design, and client–server data flow.
+An event-driven backtester built to answer one question honestly: *would this strategy survive out-of-sample, after costs?* Strict no-look-ahead event flow, three slippage models (incl. size-aware square-root impact), per-bar short financing, and **walk-forward validation as a first-class feature** — the same loop runs in backtest and live by swapping two components.
+
+</td>
+<td width="50%" valign="top">
+
+#### 📓 [tradejournal](https://github.com/a0merr/tradejournal)
+**Java 21 · Spring Boot 3 · PostgreSQL · React**
+
+Full-stack trade journal: ingests bot fills through a Spring Boot REST API into a normalized PostgreSQL schema, reconstructs positions and performance, and surfaces them in a React + TypeScript dashboard. **Flyway migrations, JWT auth, and integration tests against real Postgres (Testcontainers)** — built like something a team would actually run.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+#### 🤖 [Auto-Research for Small Language Models](https://github.com/a0merr/auto-research-for-small-language-model-)
+**Python · PyTorch · Anthropic API**
+
+The autonomous ML loop autolab grew out of: it trains a small GPT, lets an AI agent (Claude) read each run's results, rewrite the hyperparameters, and re-run — **20+ self-directed iterations overnight**. A live browser dashboard streams real-time loss curves, full experiment history, and the agent's reasoning behind every change.
 
 </td>
 <td width="50%" valign="top">
@@ -109,27 +127,9 @@ Snake and Tetris rebuilt from scratch in the terminal on a custom ANSI rendering
 
 </td>
 </tr>
-<tr>
-<td width="50%" valign="top">
-
-#### 💰 [Personal Finance Dashboard](https://github.com/a0merr/Mock-Personal-Finance-Dashboard-APP)
-**React · TypeScript · CSS**
-
-Type-safe React dashboard (**70%+ TypeScript**) with account balances, summary cards, charts, and transaction history — built around reusable, modular components.
-
-</td>
-<td width="50%" valign="top">
-
-#### 🌍 [ProPart1 – Country Data Sorter](https://github.com/a0merr/AndrewMerritt_ProPart1-)
-**C++ · Templates · File I/O**
-
-Generic sorted array list (`ASList<T>`) that reads and ranks **191 countries** by literacy rate and GDP per capita from CSV — a study in templates and operator overloading.
-
-</td>
-</tr>
 </table>
 
-**More:** [IDD Programming Challenge 2026](https://github.com/a0merr/IDD_Programming_Challenge_2026) (TypeScript, GitHub Actions CI) · [Password Generator](https://github.com/a0merr/Mock-Password-Generator-) (C++ OOP) · [Rock, Paper, Scissors](https://github.com/a0merr/CSE-120-Final-Project) (Python)
+**More:** [Smart Meeting Summarizer](https://github.com/a0merr/Smart-Meeting-Summarizer) (React/Node) · [Personal Finance Dashboard](https://github.com/a0merr/Mock-Personal-Finance-Dashboard-APP) (React/TS) · [Country Data Sorter](https://github.com/a0merr/AndrewMerritt_ProPart1-) (C++ templates) · [IDD Programming Challenge 2026](https://github.com/a0merr/IDD_Programming_Challenge_2026) (TypeScript, GitHub Actions CI) · [Password Generator](https://github.com/a0merr/Mock-Password-Generator-) (C++ OOP)
 
 ---
 
