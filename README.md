@@ -36,8 +36,6 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028*
 <img height="165" src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub Streak" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&hide=html,css,makefile,powershell" alt="Top Languages" />
 
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=a0merr&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8)
-
 </div>
 
 ---
