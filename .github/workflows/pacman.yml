@@ -1,10 +1,10 @@
-name: Generate Snake Animation
+name: Generate Pac-Man Animation
 
-# Renders the contribution-graph "snake" SVGs and pushes them to the
+# Renders the contribution-graph "Pac-Man" SVGs and pushes them to the
 # `output` branch, where the README embeds them via raw.githubusercontent.com.
 on:
   schedule:
-    # Refresh twice a day so the snake stays in sync with new commits.
+    # Refresh twice a day so the graph stays in sync with new commits.
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
@@ -15,21 +15,19 @@ permissions:
   contents: write
 
 concurrency:
-  group: snake-${{ github.ref }}
+  group: pacman-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
-      - name: Generate snake SVGs (light + dark)
-        uses: Platane/snk@v3
+      - name: Generate Pac-Man SVGs (light + dark)
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          games: pacman
 
       - name: Push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4

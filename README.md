@@ -20,62 +20,48 @@ J.B. Speed School of Engineering
 
 ### 👋 About Me
 
-I build autonomous AI systems — including a research agent that trains models, reads its own results, and rewrites its next experiment with no human in the loop. CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028**), shipping clean, efficient software across AI agents and quantitative trading.
+I build **autonomous AI systems** — like a research agent that trains models, reads its own results, and rewrites its next experiment, no human in the loop.
 
-- 📍 Louisville, KY
-- 🔭 Currently building autonomous AI research agents and quantitative trading models *(more under [Other Work](#-other-work))*
-- 💼 Seeking a **Summer 2027** Software Development internship — [reach out](mailto:a0merr05@louisville.edu)
+CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028**), shipping clean software across AI agents and quantitative trading.
+
+📍 Louisville, KY &nbsp;·&nbsp; 🔭 Building autonomous AI research agents & quant models &nbsp;·&nbsp; 💼 Seeking a **Summer 2027** SWE internship — [reach out](mailto:a0merr05@louisville.edu)
+
+---
+
+### 📊 At a Glance
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&hide=stars,prs,issues" alt="Andrew's GitHub stats" />
+<img height="165" src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub Streak" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&hide=html,css,makefile,powershell" alt="Top Languages" />
+
+![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=a0merr&theme=tokyonight&no-frame=true&no-bg=true&column=7&margin-w=8&margin-h=8)
+
+</div>
 
 ---
 
 ### 🛠️ Tech Stack
 
-**Languages**
+<div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=cplusplus&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
-![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=csharp&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white)
+**Languages**<br>
+<img src="https://skillicons.dev/icons?i=py,cpp,c,cs,ts,js,java" alt="Python, C++, C, C#, TypeScript, JavaScript, Java" height="48" />
 
-**Frameworks & Runtimes**
+**Frameworks &amp; Runtimes**<br>
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,spring" alt="React, Node.js, Express, Spring Boot" height="48" />
 
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat&logo=springboot&logoColor=white)
+**Expanding**<br>
+<img src="https://skillicons.dev/icons?i=mysql" alt="SQL" height="48" />
 
-**Expanding**
-
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white)
-
-**AI / ML**
-
+**AI / ML**<br>
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![Anthropic API](https://img.shields.io/badge/Anthropic_API-191919?style=flat&logo=anthropic&logoColor=white)
 
-**Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat&logo=visualstudiocode&logoColor=white)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
----
-
-### 🔒 Other Work
-
-Beyond the featured public repos, I build a lot in private — mostly around **quantitative trading and AI**:
-
-- **Quant / trading** — sports-betting models, prediction-market and Polymarket/Kalshi odds-mispricing analysis, and automated trading bots (Python).
-- **AI / agents** — a personal LLM-development sandbox, an OpenJarvis voice-assistant fork, and a self-developing *Hearts of Iron IV* AI (C#).
-
-Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.edu).
+</div>
 
 ---
 
@@ -85,88 +71,73 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 <tr>
 <td colspan="2" valign="top">
 
-#### 🧪 [autolab](https://github.com/a0merr/autolab)
-**Python · LLM Agents · Reproducible ML**
-
-A framework that puts an LLM agent inside the ML research loop: it proposes a hypothesis, runs an experiment against **any model or task**, reads the results, and chooses the next run — every run **versioned and replayable to the exact same metric**. A plugin interface swaps in custom objectives, and the bundled demo drives a real search with **no API key, GPU, or training required**. The generalized successor to the Auto-Research loop below.
+#### 🧪 [autolab](https://github.com/a0merr/autolab) &nbsp;·&nbsp; `Python` `LLM Agents` `Reproducible ML`
+An LLM agent inside the ML research loop — proposes a hypothesis, runs it against **any model or task**, reads results, picks the next run. Every run **versioned and replayable to the exact metric**; the demo drives a real search with **no API key, GPU, or training**.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### 📉 [axiom-backtest](https://github.com/a0merr/axiom-backtest)
-**Python · Event-Driven · Quant**
-
-An event-driven backtester built to answer one question honestly: *would this strategy survive out-of-sample, after costs?* Strict no-look-ahead event flow, three slippage models (incl. size-aware square-root impact), per-bar short financing, and **walk-forward validation as a first-class feature** — the same loop runs in backtest and live by swapping two components.
+#### 📉 [axiom-backtest](https://github.com/a0merr/axiom-backtest) &nbsp;·&nbsp; `Python` `Quant`
+Event-driven backtester that answers one question honestly: *would this survive out-of-sample, after costs?* Strict no-look-ahead flow, 3 slippage models, **walk-forward validation as a first-class feature** — same loop runs backtest and live.
 
 </td>
 <td width="50%" valign="top">
 
-#### 📓 [tradejournal](https://github.com/a0merr/tradejournal)
-**Java 21 · Spring Boot 3 · PostgreSQL · React**
-
-Full-stack trade journal: ingests bot fills through a Spring Boot REST API into a normalized PostgreSQL schema, reconstructs positions and performance, and surfaces them in a React + TypeScript dashboard. **Flyway migrations, JWT auth, and integration tests against real Postgres (Testcontainers)** — built like something a team would actually run.
+#### 📓 [tradejournal](https://github.com/a0merr/tradejournal) &nbsp;·&nbsp; `Java 21` `Spring Boot` `React`
+Full-stack trade journal: Spring Boot REST API → normalized PostgreSQL → React/TS dashboard. **Flyway migrations, JWT auth, integration tests against real Postgres (Testcontainers)** — built like a team would run it.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-#### 🤖 [Auto-Research for Small Language Models](https://github.com/a0merr/auto-research-slm)
-**Python · PyTorch · Anthropic API**
-
-The autonomous ML loop autolab grew out of: it trains a small GPT, lets an AI agent (Claude) read each run's results, rewrite the hyperparameters, and re-run — **20+ self-directed iterations overnight**. A live browser dashboard streams real-time loss curves, full experiment history, and the agent's reasoning behind every change.
+#### 🤖 [Auto-Research for SLMs](https://github.com/a0merr/auto-research-slm) &nbsp;·&nbsp; `PyTorch` `Anthropic API`
+The loop autolab grew out of — trains a small GPT, lets Claude read each run, rewrite hyperparameters, and re-run. **20+ self-directed iterations overnight**, with a live dashboard streaming loss curves and the agent's reasoning.
 
 </td>
 <td width="50%" valign="top">
 
-#### 🕹️ [Terminal Arcade](https://github.com/a0merr/Arcade)
-**Python · Standard Library Only**
-
-Snake and Tetris rebuilt from scratch in the terminal on a custom ANSI rendering engine with threaded input. Tetris ships a 7-bag randomizer, ghost piece, hard drop, and next-piece preview. Persistent high scores, **zero dependencies**, cross-platform.
+#### 🕹️ [Terminal Arcade](https://github.com/a0merr/Arcade) &nbsp;·&nbsp; `Python` `Stdlib Only`
+Snake and Tetris on a custom ANSI engine with threaded input. Tetris ships a 7-bag randomizer, ghost piece, hard drop, and next-piece preview. Persistent high scores, **zero dependencies**, cross-platform.
 
 </td>
 </tr>
 </table>
 
-**More:** [Smart Meeting Summarizer](https://github.com/a0merr/Smart-Meeting-Summarizer) (React/Node) · [Personal Finance Dashboard](https://github.com/a0merr/finance-dashboard) (React/TS) · [Country Data Sorter](https://github.com/a0merr/country-data-sorter) (C++ templates) · [IDD Programming Challenge 2026](https://github.com/a0merr/IDD_Programming_Challenge_2026) (TypeScript, GitHub Actions CI) · [Password Generator](https://github.com/a0merr/password-generator) (C++ OOP)
+**More:** [Smart Meeting Summarizer](https://github.com/a0merr/Smart-Meeting-Summarizer) · [Finance Dashboard](https://github.com/a0merr/finance-dashboard) · [Country Data Sorter](https://github.com/a0merr/country-data-sorter) · [IDD Challenge 2026](https://github.com/a0merr/IDD_Programming_Challenge_2026) · [Password Generator](https://github.com/a0merr/password-generator)
 
 ---
 
 ### 🌐 Open Source
 
-- **[SigmaHQ/sigma](https://github.com/SigmaHQ/sigma)** — *[open PR #6080](https://github.com/SigmaHQ/sigma/pull/6080) · pending review* — Pinned the CI test/validation dependencies into dedicated requirements files and added `pip` caching across the GitHub Actions workflows, so an unrelated upstream release can't break contributor PRs and CI stops re-downloading packages each run. Validated locally (Python 3.14): tests pass, `sigma check` clean, no detection rules touched.
+**[SigmaHQ/sigma](https://github.com/SigmaHQ/sigma)** — [PR #6080](https://github.com/SigmaHQ/sigma/pull/6080) *· open, maintainer-approved ✅*<br>
+Pinned CI test/validation deps into dedicated requirements files and added `pip` caching across the GitHub Actions workflows — an unrelated upstream release can't break contributor PRs, and CI stops re-downloading each run. Validated locally (Python 3.14): tests pass, `sigma check` clean, no detection rules touched.
 
 ---
 
-### 🎓 Honors
+### 🔒 Other Work
 
-- 🏅 Dean's List — Fall 2024, Fall 2025, Spring 2026
-- 👥 First Year Leadership Program — Top 10% of class
+Most of my building is private — mostly **quant trading and AI**:
+
+- **Quant** — sports-betting models, Polymarket/Kalshi odds-mispricing analysis, automated trading bots *(Python)*
+- **AI / agents** — a personal LLM-dev sandbox, an OpenJarvis voice-assistant fork, and a self-developing *Hearts of Iron IV* AI *(C#)*
+
+Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.edu).
 
 ---
 
-### 🏅 Licenses & Certifications
+### 🎓 Honors &nbsp;·&nbsp; 🏅 Certifications
+
+🏅 **Dean's List** — Fall 2024, Fall 2025, Spring 2026 &nbsp;·&nbsp; 👥 **First Year Leadership Program** — Top 10%
 
 <details>
-<summary><strong>Google Cloud — 3 Completion Badges · Jun 2026</strong></summary>
+<summary><strong>Anthropic — 17 Certifications</strong> · Jun 2026</summary>
 
 <br>
 
-![Introduction to Generative AI](https://img.shields.io/badge/Intro_to_Generative_AI-Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Introduction to Large Language Models](https://img.shields.io/badge/Intro_to_Large_Language_Models-Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Introduction to Responsible AI](https://img.shields.io/badge/Intro_to_Responsible_AI-Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
-
-</details>
-
-<details>
-<summary><strong>Anthropic — 17 Certifications · Jun 2026</strong></summary>
-
-<br>
-
-**Claude**
-
+**Claude** &nbsp;
 ![Claude 101](https://img.shields.io/badge/Claude_101-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
 ![Claude Code 101](https://img.shields.io/badge/Claude_Code_101-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
 ![Claude Platform 101](https://img.shields.io/badge/Claude_Platform_101-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
@@ -174,28 +145,22 @@ Snake and Tetris rebuilt from scratch in the terminal on a custom ANSI rendering
 ![Building with the Claude API](https://img.shields.io/badge/Building_with_the_Claude_API-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
 ![Intro to Claude Cowork](https://img.shields.io/badge/Intro_to_Claude_Cowork-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
 
-**Agents**
-
+**Agents & MCP** &nbsp;
 ![Intro to Agent Skills](https://img.shields.io/badge/Intro_to_Agent_Skills-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
 ![Introduction to Subagents](https://img.shields.io/badge/Introduction_to_Subagents-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-
-**Model Context Protocol**
-
 ![Intro to MCP](https://img.shields.io/badge/Intro_to_MCP-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
 ![MCP: Advanced Topics](https://img.shields.io/badge/MCP%3A_Advanced_Topics-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
 
-**Cloud Platforms**
-
+**Cloud Platforms** &nbsp;
 ![Claude in Amazon Bedrock](https://img.shields.io/badge/Claude_in_Amazon_Bedrock-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
 ![Claude with Vertex AI](https://img.shields.io/badge/Claude_with_Vertex_AI-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
 
-**AI Fluency**
-
+**AI Fluency** &nbsp;
 ![AI Capabilities & Limitations](https://img.shields.io/badge/AI_Capabilities_%26_Limitations-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![AI Fluency: Framework & Foundations](https://img.shields.io/badge/AI_Fluency%3A_Framework_%26_Foundations-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![AI Fluency for Students](https://img.shields.io/badge/AI_Fluency_for_Students-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![AI Fluency for Small Businesses](https://img.shields.io/badge/AI_Fluency_for_Small_Businesses-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![AI Fluency for Nonprofits](https://img.shields.io/badge/AI_Fluency_for_Nonprofits-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![Framework & Foundations](https://img.shields.io/badge/Framework_%26_Foundations-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![for Students](https://img.shields.io/badge/for_Students-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![for Small Businesses](https://img.shields.io/badge/for_Small_Businesses-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+![for Nonprofits](https://img.shields.io/badge/for_Nonprofits-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
 
 <details>
 <summary>Credential IDs</summary>
@@ -226,29 +191,27 @@ Snake and Tetris rebuilt from scratch in the terminal on a custom ANSI rendering
 
 </details>
 
----
+<details>
+<summary><strong>Google Cloud — 3 Completion Badges</strong> · Jun 2026</summary>
 
-### 📊 GitHub Stats
+<br>
 
-<div align="center">
+![Introduction to Generative AI](https://img.shields.io/badge/Intro_to_Generative_AI-Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Introduction to Large Language Models](https://img.shields.io/badge/Intro_to_Large_Language_Models-Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+![Introduction to Responsible AI](https://img.shields.io/badge/Intro_to_Responsible_AI-Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
 
-![Andrew's GitHub stats](https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&hide=stars,prs,issues)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&hide=html,css,makefile,powershell)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight)
-
-</div>
+</details>
 
 ---
 
-### 🐍 Contribution Graph
+### 🟡 Contribution Graph
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/a0merr/a0merr/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/a0merr/a0merr/output/github-contribution-grid-snake.svg">
-  <img alt="Snake animation eating the squares of Andrew Merritt's GitHub contribution graph" src="https://raw.githubusercontent.com/a0merr/a0merr/output/github-contribution-grid-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/a0merr/a0merr/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/a0merr/a0merr/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man animation eating the squares of Andrew Merritt's GitHub contribution graph" src="https://raw.githubusercontent.com/a0merr/a0merr/output/pacman-contribution-graph.svg">
 </picture>
 
 </div>
