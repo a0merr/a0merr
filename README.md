@@ -153,7 +153,9 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 
 <div align="center">
 
-<img src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub streak — total contributions and current/longest streaks" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=a0merr&theme=tokyonight" alt="GitHub stats — stars, commits, PRs, and total contributions" />
+<img height="165" src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub streak — total contributions and current/longest streaks" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=a0merr&theme=tokyonight" alt="Most-used languages by commits" />
 
 </div>
 
