@@ -28,18 +28,6 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028*
 
 ---
 
-### 📊 At a Glance
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/a0merr/a0merr/metrics-output/github-metrics.svg" alt="Andrew Merritt's GitHub metrics — overview and most-used languages" width="480" />
-
-<img height="165" src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub Streak" />
-
-</div>
-
----
-
 ### 🛠️ Tech Stack
 
 <div align="center">
@@ -70,7 +58,7 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028*
 <td colspan="2" valign="top">
 
 #### 🧪 [autolab](https://github.com/a0merr/autolab) &nbsp;·&nbsp; `Python` `LLM Agents` `Reproducible ML`
-An LLM agent inside the ML research loop — proposes a hypothesis, runs it against **any model or task**, reads results, picks the next run. Every run **versioned and replayable to the exact metric**; the demo drives a real search with **no API key, GPU, or training**.
+An LLM agent that runs the whole ML research loop: hypothesis → experiment on **any model or task** → read results → next run. Every run is **versioned and replayable to the exact metric**; the demo drives a real search with **no API key, GPU, or training**.
 
 </td>
 </tr>
@@ -78,7 +66,7 @@ An LLM agent inside the ML research loop — proposes a hypothesis, runs it agai
 <td width="50%" valign="top">
 
 #### 📉 [axiom-backtest](https://github.com/a0merr/axiom-backtest) &nbsp;·&nbsp; `Python` `Quant`
-Event-driven backtester that answers one question honestly: *would this survive out-of-sample, after costs?* Strict no-look-ahead flow, 3 slippage models, **walk-forward validation as a first-class feature** — same loop runs backtest and live.
+Event-driven backtester built to answer one question honestly: *would this survive out-of-sample, after costs?* No-look-ahead flow, 3 slippage models, and **walk-forward validation as a first-class feature** — the same loop runs backtest and live.
 
 </td>
 <td width="50%" valign="top">
@@ -98,7 +86,7 @@ The loop autolab grew out of — trains a small GPT, lets Claude read each run, 
 <td width="50%" valign="top">
 
 #### 🕹️ [Terminal Arcade](https://github.com/a0merr/Arcade) &nbsp;·&nbsp; `Python` `Stdlib Only`
-Snake and Tetris on a custom ANSI engine with threaded input. Tetris ships a 7-bag randomizer, ghost piece, hard drop, and next-piece preview. Persistent high scores, **zero dependencies**, cross-platform.
+Snake and Tetris on a custom ANSI engine with threaded input — Tetris has a 7-bag randomizer, ghost piece, hard drop, and next-piece preview. **Zero dependencies**, persistent high scores, cross-platform.
 
 </td>
 </tr>
@@ -126,42 +114,14 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 
 ---
 
-### 🎓 Honors &nbsp;·&nbsp; 🏅 Certifications
+### 🎓 Honors & Certifications
 
 🏅 **Dean's List** — Fall 2024, Fall 2025, Spring 2026 &nbsp;·&nbsp; 👥 **First Year Leadership Program** — Top 10%
 
-<details>
-<summary><strong>Anthropic — 17 Certifications</strong> · Jun 2026</summary>
-
-<br>
-
-**Claude** &nbsp;
-![Claude 101](https://img.shields.io/badge/Claude_101-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![Claude Code 101](https://img.shields.io/badge/Claude_Code_101-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![Claude Platform 101](https://img.shields.io/badge/Claude_Platform_101-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![Claude Code in Action](https://img.shields.io/badge/Claude_Code_in_Action-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![Building with the Claude API](https://img.shields.io/badge/Building_with_the_Claude_API-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![Intro to Claude Cowork](https://img.shields.io/badge/Intro_to_Claude_Cowork-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-
-**Agents & MCP** &nbsp;
-![Intro to Agent Skills](https://img.shields.io/badge/Intro_to_Agent_Skills-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![Introduction to Subagents](https://img.shields.io/badge/Introduction_to_Subagents-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![Intro to MCP](https://img.shields.io/badge/Intro_to_MCP-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![MCP: Advanced Topics](https://img.shields.io/badge/MCP%3A_Advanced_Topics-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-
-**Cloud Platforms** &nbsp;
-![Claude in Amazon Bedrock](https://img.shields.io/badge/Claude_in_Amazon_Bedrock-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![Claude with Vertex AI](https://img.shields.io/badge/Claude_with_Vertex_AI-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-
-**AI Fluency** &nbsp;
-![AI Capabilities & Limitations](https://img.shields.io/badge/AI_Capabilities_%26_Limitations-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![Framework & Foundations](https://img.shields.io/badge/Framework_%26_Foundations-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![for Students](https://img.shields.io/badge/for_Students-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![for Small Businesses](https://img.shields.io/badge/for_Small_Businesses-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
-![for Nonprofits](https://img.shields.io/badge/for_Nonprofits-Anthropic-D97757?style=flat&logo=anthropic&logoColor=white)
+**Anthropic-certified** across Claude, the Claude API, MCP, and agents — **17 credentials** &nbsp;·&nbsp; **Google Cloud** — 3 GenAI/LLM badges
 
 <details>
-<summary>Credential IDs</summary>
+<summary>Verify the 17 Anthropic credentials ↗</summary>
 
 <br>
 
@@ -187,18 +147,17 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 
 </details>
 
-</details>
+---
 
-<details>
-<summary><strong>Google Cloud — 3 Completion Badges</strong> · Jun 2026</summary>
+### 📊 At a Glance
 
-<br>
+<div align="center">
 
-![Introduction to Generative AI](https://img.shields.io/badge/Intro_to_Generative_AI-Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Introduction to Large Language Models](https://img.shields.io/badge/Intro_to_Large_Language_Models-Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
-![Introduction to Responsible AI](https://img.shields.io/badge/Intro_to_Responsible_AI-Google_Cloud-4285F4?style=flat&logo=googlecloud&logoColor=white)
+<img src="https://raw.githubusercontent.com/a0merr/a0merr/metrics-output/github-metrics.svg" alt="Andrew Merritt's GitHub metrics — overview and most-used languages" width="480" />
 
-</details>
+<img height="165" src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub Streak" />
+
+</div>
 
 ---
 
