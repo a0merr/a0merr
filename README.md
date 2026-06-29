@@ -153,9 +153,7 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/a0merr/a0merr/metrics-output/github-metrics.svg" alt="Andrew Merritt's GitHub metrics — overview and most-used languages" width="480" />
-
-<img height="165" src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub Streak" />
+<img src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub streak — total contributions and current/longest streaks" />
 
 </div>
 
