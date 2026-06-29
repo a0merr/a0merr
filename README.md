@@ -32,9 +32,9 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **May 2028*
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&hide=stars,prs,issues" alt="Andrew's GitHub stats" />
+<img src="https://raw.githubusercontent.com/a0merr/a0merr/metrics-output/github-metrics.svg" alt="Andrew Merritt's GitHub metrics — overview and most-used languages" width="480" />
+
 <img height="165" src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub Streak" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=a0merr&layout=compact&hide_border=true&langs_count=8&theme=tokyonight&hide=html,css,makefile,powershell" alt="Top Languages" />
 
 </div>
 
