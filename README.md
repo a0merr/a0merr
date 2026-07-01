@@ -119,7 +119,7 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 
 🏅 **Dean's List** — Fall 2024, Fall 2025, Spring 2026 &nbsp;·&nbsp; 👥 **First Year Leadership Program** — Top 10%
 
-**Anthropic-certified** across Claude, the Claude API, MCP, and agents — **17 credentials** &nbsp;·&nbsp; **Google Cloud** — 3 GenAI/LLM badges
+**Anthropic-certified** across Claude, the Claude API, MCP, and agents — **17 credentials** &nbsp;·&nbsp; **Google Cloud** — 3 GenAI/LLM badges &nbsp;·&nbsp; **Microsoft Learn** — 85 badges, 17 trophies, Level 10 (GitHub Foundations + Copilot paths)
 
 <details>
 <summary>Verify the 17 Anthropic credentials ↗</summary>
@@ -148,20 +148,8 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 
 </details>
 
----
-
-### 📊 At a Glance
-
-<div align="center">
-
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=a0merr&theme=tokyonight" alt="GitHub stats — stars, commits, PRs, and total contributions" />
-<img height="165" src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub streak — total contributions and current/longest streaks" />
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=a0merr&theme=tokyonight" alt="Most-used languages by commits" />
-
-</div>
-
 <details>
-<summary><strong>Microsoft Learn — 85 Badges · 17 Trophies · Level 10</strong> · Jun 2026</summary>
+<summary><strong>Microsoft Learn training — 85 Badges · 17 Trophies · Level 10</strong> · Jun 2026</summary>
 
 <br>
 
@@ -185,6 +173,18 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 ![Copilot Cloud Agent](https://img.shields.io/badge/Copilot_Cloud_Agent-Microsoft_Learn-258FFA?style=flat&logo=githubcopilot&logoColor=white)
 
 </details>
+
+---
+
+### 📊 At a Glance
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=a0merr&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&hide=stars,issues" alt="GitHub stats — commits, PRs, and contributions" />
+<img height="165" src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub streak — total contributions and current/longest streaks" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=a0merr&theme=tokyonight" alt="Most-used languages by commits" />
+
+</div>
 
 ---
 
