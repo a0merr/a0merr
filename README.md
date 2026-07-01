@@ -11,6 +11,7 @@ J.B. Speed School of Engineering
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab425537a)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/a0merr)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:a0merr05@louisville.edu)
+[![Microsoft Learn](https://img.shields.io/badge/MS_Learn-258FFA?style=flat&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/andrewmerritt-3862/)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=a0merr&color=blueviolet&style=flat)
 
@@ -158,6 +159,32 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=a0merr&theme=tokyonight" alt="Most-used languages by commits" />
 
 </div>
+
+<details>
+<summary><strong>Microsoft Learn — 85 Badges · 17 Trophies · Level 10</strong> · Jun 2026</summary>
+
+<br>
+
+**Learning Paths** &nbsp;
+![GitHub Foundations](https://img.shields.io/badge/GitHub_Foundations-Microsoft_Learn-258FFA?style=flat&logo=github&logoColor=white)
+![GitHub Copilot Fundamentals](https://img.shields.io/badge/GitHub_Copilot_Fundamentals-Microsoft_Learn-258FFA?style=flat&logo=githubcopilot&logoColor=white)
+
+**GitHub** &nbsp;
+![Manage repository changes with pull requests](https://img.shields.io/badge/Pull_Requests-Microsoft_Learn-258FFA?style=flat&logo=github&logoColor=white)
+![Authenticate and authorize user identities](https://img.shields.io/badge/Auth_%26_Identity-Microsoft_Learn-258FFA?style=flat&logo=github&logoColor=white)
+![InnerSource](https://img.shields.io/badge/InnerSource-Microsoft_Learn-258FFA?style=flat&logo=github&logoColor=white)
+![GitHub Projects](https://img.shields.io/badge/GitHub_Projects-Microsoft_Learn-258FFA?style=flat&logo=github&logoColor=white)
+![Codespaces](https://img.shields.io/badge/Codespaces-Microsoft_Learn-258FFA?style=flat&logo=github&logoColor=white)
+![Code scanning](https://img.shields.io/badge/Code_Scanning-Microsoft_Learn-258FFA?style=flat&logo=github&logoColor=white)
+
+**GitHub Copilot** &nbsp;
+![Copilot with Python](https://img.shields.io/badge/Copilot_with_Python-Microsoft_Learn-258FFA?style=flat&logo=githubcopilot&logoColor=white)
+![Copilot with JavaScript](https://img.shields.io/badge/Copilot_with_JavaScript-Microsoft_Learn-258FFA?style=flat&logo=githubcopilot&logoColor=white)
+![Code reviews & PRs with Copilot](https://img.shields.io/badge/Copilot_Code_Reviews-Microsoft_Learn-258FFA?style=flat&logo=githubcopilot&logoColor=white)
+![Introduction to MCP Server](https://img.shields.io/badge/MCP_Server-Microsoft_Learn-258FFA?style=flat&logo=githubcopilot&logoColor=white)
+![Copilot Cloud Agent](https://img.shields.io/badge/Copilot_Cloud_Agent-Microsoft_Learn-258FFA?style=flat&logo=githubcopilot&logoColor=white)
+
+</details>
 
 ---
 
