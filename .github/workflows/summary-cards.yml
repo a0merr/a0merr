@@ -1,0 +1,36 @@
+name: Generate Profile Summary Cards
+
+# Renders the "At a Glance" stat cards with the same project that powers
+# github-profile-summary-cards.vercel.app, but locally in CI, and commits the
+# SVGs to main — so the README no longer depends on the shared, rate-limited
+# Vercel instance. The bot's commits use GITHUB_TOKEN, so they don't count as
+# contributions and can't re-trigger workflows.
+on:
+  schedule:
+    # Refresh twice a day, offset from the Pac-Man workflow's 0 */12.
+    - cron: "23 5,17 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: summary-cards
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
+
+      - name: Generate cards and commit them to main
+        uses: vn7n24fzkq/github-profile-summary-cards@974577f1823715ca047e9976548634816a3a0264 # release branch, 2026-07-02
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}

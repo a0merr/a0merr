@@ -13,8 +13,6 @@ J.B. Speed School of Engineering
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:a0merr05@louisville.edu)
 [![Microsoft Learn](https://img.shields.io/badge/MS_Learn-258FFA?style=flat&logo=microsoft&logoColor=white)](https://learn.microsoft.com/en-us/users/andrewmerritt-3862/)
 
-![Profile Views](https://komarev.com/ghpvc/?username=a0merr&color=blueviolet&style=flat)
-
 </div>
 
 ---
@@ -180,9 +178,9 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 
 <div align="center">
 
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=a0merr&theme=tokyonight" alt="GitHub stats — commits, PRs, and total contributions" />
+<img height="165" src="https://raw.githubusercontent.com/a0merr/a0merr/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats — stars, commits, PRs, and total contributions" />
 <img height="165" src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub streak — total contributions and current/longest streaks" />
-<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=a0merr&theme=tokyonight" alt="Most-used languages by commits" />
+<img height="165" src="https://raw.githubusercontent.com/a0merr/a0merr/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most-used languages by commits" />
 
 </div>
 
