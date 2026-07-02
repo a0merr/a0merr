@@ -1,0 +1,8 @@
+# Keep the SHA-pinned actions in .github/workflows fresh — Dependabot opens a
+# PR when an action publishes a new release, updating the pin and its comment.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
