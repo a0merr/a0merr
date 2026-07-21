@@ -178,9 +178,9 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 
 <div align="center">
 
-<img height="165" src="https://raw.githubusercontent.com/a0merr/a0merr/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats — stars, commits, PRs, and total contributions" />
-<img height="165" src="https://streak-stats.demolab.com/?user=a0merr&hide_border=true&theme=tokyonight" alt="GitHub streak — total contributions and current/longest streaks" />
-<img height="165" src="https://raw.githubusercontent.com/a0merr/a0merr/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most-used languages by commits" />
+<img height="150" src="https://raw.githubusercontent.com/a0merr/a0merr/main/profile-summary-card-output/tokyonight/3-stats.svg" alt="GitHub stats — stars, commits, PRs, and total contributions" />
+<img height="150" src="https://raw.githubusercontent.com/a0merr/a0merr/main/profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="Repos per language" />
+<img height="150" src="https://raw.githubusercontent.com/a0merr/a0merr/main/profile-summary-card-output/tokyonight/2-most-commit-language.svg" alt="Most-used languages by commits" />
 
 </div>
 
