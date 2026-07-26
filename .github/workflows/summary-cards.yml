@@ -10,9 +10,6 @@ on:
     # Refresh twice a day, offset from the Pac-Man workflow's 0 */12.
     - cron: "23 5,17 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -28,9 +25,40 @@ jobs:
     steps:
       - uses: actions/checkout@9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0 # v7.0.0
 
+      # The stats and profile-details cards read the GraphQL `user` object
+      # (contributionsCollection, followers, total stars). The default
+      # GITHUB_TOKEN is an App installation token and gets "Resource not
+      # accessible by integration" for those fields, so the action skips both
+      # cards and then commits their deletion. A classic PAT with `read:user`
+      # is required; store it as the PROFILE_CARDS_TOKEN repo secret.
+      - name: Check that the PAT secret is present
+        env:
+          PROFILE_CARDS_TOKEN: ${{ secrets.PROFILE_CARDS_TOKEN }}
+        run: |
+          if [ -z "$PROFILE_CARDS_TOKEN" ]; then
+            echo "::error::PROFILE_CARDS_TOKEN is not set. Create a classic PAT with the read:user scope and add it as a repository secret, otherwise the stats and profile-details cards cannot be generated."
+            exit 1
+          fi
+
       - name: Generate cards and commit them to main
         uses: vn7n24fzkq/github-profile-summary-cards@974577f1823715ca047e9976548634816a3a0264 # release branch, 2026-07-02
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PROFILE_CARDS_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
+
+      # The action logs card failures but still exits 0, and its commit step
+      # happily pushes the resulting deletions — which is how the README ended
+      # up pointing at a missing 3-stats.svg. Fail the run instead, so a broken
+      # card is visible rather than silent.
+      - name: Verify every card the README embeds was generated
+        run: |
+          missing=0
+          for card in 0-profile-details 1-repos-per-language 2-most-commit-language 3-stats; do
+            path="profile-summary-card-output/tokyonight/$card.svg"
+            if [ ! -s "$path" ]; then
+              echo "::error file=$path::$path was not generated"
+              missing=1
+            fi
+          done
+          exit $missing
