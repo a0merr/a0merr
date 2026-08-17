@@ -1,0 +1,154 @@
+/* Print stylesheet for the resume.
+ *
+ * Targets Chrome's --print-to-pdf. Sizes are in points so what you read here
+ * matches what lands in the PDF: 1pt = 1/72in, and the page is 612x792pt.
+ *
+ * Carlito is what the original PDF embedded; Calibri is metric-compatible
+ * with it (same advance widths), so the two typeset identically. Listing
+ * both means this builds the same on Windows and on Linux CI.
+ */
+
+@page {
+  size: letter;
+  margin: 0;
+}
+
+:root {
+  --ink: #000;
+  --link: #0563c1;
+  --rule: #000;
+  --body: 9pt;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Carlito, Calibri, "Segoe UI", sans-serif;
+  font-size: var(--body);
+  /* Tuned so the whole resume lands on exactly one page. If you add content
+   * and it spills, drop this to 1.14 before shrinking the font. */
+  line-height: 1.14;
+  color: var(--ink);
+  /* The page margin lives here rather than in @page so the horizontal rules
+   * under section headings can span the full text column. */
+  padding: 28pt 36pt 20pt;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+}
+
+/* ---- Header ------------------------------------------------------------ */
+
+.name {
+  text-align: center;
+  font-size: 17pt;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 0 0 4pt;
+}
+
+.contact {
+  text-align: center;
+  font-size: 9pt;
+  margin: 0 0 7pt;
+}
+
+.contact .sep {
+  padding: 0 4pt;
+}
+
+.summary {
+  margin: 0 0 2pt;
+  text-align: left;
+}
+
+/* ---- Sections ---------------------------------------------------------- */
+
+h2 {
+  font-size: 9pt;
+  font-weight: 700;
+  /* The wide tracking is what gives the original its "E D U C A T I O N"
+   * look. letter-spacing adds space after the final letter too, so the
+   * rule is drawn on the container, not the text. */
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  margin: 5pt 0 0;
+  padding: 0 0 1.5pt;
+  border-bottom: 0.8pt solid var(--rule);
+}
+
+.entry {
+  margin-top: 3pt;
+}
+
+/* Title on the left, date/meta on the right, on one baseline. */
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12pt;
+}
+
+.row .title {
+  font-weight: 700;
+}
+
+.row .meta {
+  font-style: italic;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.subtitle {
+  font-style: italic;
+}
+
+/* ---- Bullets ----------------------------------------------------------- */
+
+ul {
+  margin: 1pt 0 0;
+  /* Native markers with `outside` positioning give the hanging indent for
+   * free - wrapped lines align under the text, not under the bullet - and
+   * they extract as inline text. An absolutely-positioned ::before bullet
+   * looks identical but breaks onto its own line when a PDF text extractor
+   * (or an ATS resume parser) reads the file. */
+  padding-left: 10pt;
+  list-style: disc outside;
+}
+
+li {
+  margin-top: 0.5pt;
+}
+
+/* A run-in label followed by body text on the same line, as in the skills
+ * block and the "Additional" line. */
+.label {
+  font-weight: 700;
+}
+
+.skills div {
+  margin-top: 1pt;
+}
+
+.additional {
+  margin-top: 3pt;
+}
+
+/* Keep an entry from being split across pages if the resume ever grows past
+ * one page. */
+.entry,
+li {
+  break-inside: avoid;
+}

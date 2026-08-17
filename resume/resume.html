@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Chrome copies this into the PDF's /Title, which is what a browser tab
+         and Acrobat's title bar display. -->
+    <title>Andrew Merritt - Resume</title>
+    <link rel="stylesheet" href="resume.css" />
+  </head>
+  <body>
+    <h1 class="name">ANDREW MERRITT</h1>
+
+    <p class="contact">
+      Louisville, KY<span class="sep">&bull;</span>(812) 972-6266<span class="sep">&bull;</span
+      ><a href="mailto:a0merr05@louisville.edu">a0merr05@louisville.edu</a><span class="sep">&bull;</span
+      ><a href="https://github.com/a0merr">github.com/a0merr</a><span class="sep">&bull;</span
+      ><a href="https://www.linkedin.com/in/andrew-merritt-ab425537a">LinkedIn</a>
+    </p>
+
+    <p class="summary">
+      Computer Science student (3.62 GPA, graduating December 2027) who builds quantitative
+      infrastructure and autonomous AI agents in Python, Java, and C++. Ships independent projects
+      end to end &mdash; an event-driven backtesting framework with a 126&times; vectorization
+      speedup, a self-directed ML research agent, a Spring Boot/PostgreSQL trade journal &mdash; and
+      contributes CI supply-chain hardening to SigmaHQ, the open standard for detection engineering.
+    </p>
+
+    <h2>Education</h2>
+    <div class="entry">
+      <div class="row">
+        <span class="title">University of Louisville &mdash; J.B. Speed School of Engineering</span>
+        <span class="meta">Expected December 2027</span>
+      </div>
+      <div class="subtitle">
+        B.A. in Computer Science &bull; GPA 3.62 / 4.0 &bull; 84 credit hours completed &bull;
+        Louisville, KY
+      </div>
+      <ul>
+        <li>
+          Fall 2026 coursework: Design of Operating Systems, Introduction to Algorithms, Taxation for
+          Business Entities. Prior: Technical Certificate, Indiana College Core &mdash; Ivy Tech
+          Community College (GPA 3.6, 2020&ndash;2024).
+        </li>
+      </ul>
+    </div>
+
+    <h2>Technical Skills</h2>
+    <div class="entry skills">
+      <div><span class="label">Languages</span> Python, C++, C, Java, C#, TypeScript, JavaScript, SQL (expanding: Rust)</div>
+      <div><span class="label">AI / ML</span> PyTorch, NumPy, Pandas, Anthropic API, LLM agent orchestration and tool-use design</div>
+      <div><span class="label">Systems</span> Spring Boot, PostgreSQL, React, Node.js, REST API design, Docker, GitHub Actions CI/CD, Testcontainers, Linux</div>
+    </div>
+
+    <h2>Projects</h2>
+
+    <div class="entry">
+      <div class="row">
+        <span class="title">axiom-backtest &mdash; Event-Driven Backtesting Framework</span>
+        <span class="meta">Python &bull; github.com/a0merr/axiom-backtest</span>
+      </div>
+      <ul>
+        <li>
+          Built an event-driven backtester modeling frictions most backtests omit &mdash; per-share
+          commission with order minimums, daily short-borrow accrual, margin interest &mdash; plus
+          ruin detection and gross leverage caps.
+        </li>
+        <li>
+          Implemented four slippage models ranked by realism (fixed, volatility-aware, square-root
+          volume impact, order-book depth-aware), where execution cost at 50% of bar volume spans 5bp
+          to 3,846bp under liquidity stress.
+        </li>
+        <li>
+          Replaced per-bar pandas lookups with vectorized alignment: 864,332 rows/sec against 6,877, a
+          126&times; speedup processing a 10M-row dataset in ~8.5s at ~1.1GB.
+        </li>
+        <li>
+          Case study under rolling-origin walk-forward validation (50/200 MA crossover,
+          SPY/QQQ/EFA/TLT/GLD, 2010&ndash;2024): Sharpe 0.78, 95% CI [0.30, 1.27], OOS mean 0.81
+          across 10 folds &mdash; and reported that it underperforms buy-and-hold SPY at 0.84. Built
+          to falsify strategies, not flatter them.
+        </li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="title">auto-research-slm / autolab &mdash; Autonomous ML Research Loop</span>
+        <span class="meta">Python &bull; PyTorch &bull; Anthropic API</span>
+      </div>
+      <ul>
+        <li>
+          Built an autonomous research agent that trains a small GPT, reads each run&rsquo;s loss and
+          validation metrics, rewrites its own hyperparameters across a seven-dimension search space,
+          and re-runs &mdash; 20 experiments per unattended overnight cycle.
+        </li>
+        <li>
+          Designed the agent&rsquo;s tool interface and state handling so a malformed or out-of-range
+          run result cannot corrupt the next training configuration &mdash; guardrails on an agent
+          holding write access to its own experiment config.
+        </li>
+        <li>
+          Streamed live loss curves, experiment history, and the agent&rsquo;s stated reasoning for
+          every change to a browser dashboard, making each decision auditable. Companion build
+          (autolab) runs end to end with no API key or GPU, so reviewers can reproduce it locally.
+        </li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="title">tradejournal &mdash; Full-Stack Trade Journal</span>
+        <span class="meta">Java &bull; Spring Boot &bull; PostgreSQL &bull; React</span>
+      </div>
+      <ul>
+        <li>
+          Ingests trading-bot fills into PostgreSQL through a Spring Boot REST API, with JWT
+          authentication and Testcontainers-backed integration tests running against a real database
+          rather than mocks.
+        </li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="title">Terminal Arcade</span>
+        <span class="meta">Python &bull; Standard Library Only</span>
+      </div>
+      <ul>
+        <li>
+          Rebuilt Snake and Tetris on a custom ANSI rendering engine with threaded input; Tetris ships
+          a 7-bag randomizer, ghost piece, hard drop, and next-piece preview. Cross-platform, zero
+          external dependencies.
+        </li>
+      </ul>
+    </div>
+
+    <div class="additional">
+      <span class="label">Additional</span> python-baseline &mdash; production-ready template (tests,
+      CI, Docker, pre-commit) &bull; ASList&lt;T&gt; generic sorted container (C++ templates) &bull;
+      IDD Programming Challenge 2026 (TypeScript, CI)
+    </div>
+
+    <h2>Open Source</h2>
+    <div class="entry">
+      <div class="row">
+        <span class="title">SigmaHQ / sigma &mdash; Pull Request #6080</span>
+        <span class="meta">Under Review</span>
+      </div>
+      <ul>
+        <li>
+          Hardened the CI supply chain of the open detection-rule standard (4,000+ rules used across
+          SIEM platforms) by pinning test and validation dependencies into dedicated requirements
+          files, so an upstream release can no longer break contributor pull requests.
+        </li>
+        <li>
+          Added pip caching across the GitHub Actions workflows, eliminating redundant package
+          downloads per run. Validated on Python 3.14: full suite passing, sigma check clean, zero
+          detection rules modified.
+        </li>
+      </ul>
+    </div>
+
+    <h2>Experience</h2>
+    <div class="entry">
+      <div class="row">
+        <span class="title">Project Intern &mdash; Aqlan Lab Internship Program</span>
+        <span class="meta">May 2026 &ndash; Aug 2026</span>
+      </div>
+      <div class="subtitle">
+        University of Louisville &bull; Ohio River Way, &ldquo;Paddle the Ohio&rdquo; water-trail
+        initiative &bull; Louisville, KY
+      </div>
+      <ul>
+        <li>
+          Ran field ground-truthing audits of Ohio River public access points across multiple
+          segments, logging launch conditions, hazards, and amenities into a shared tracker, and
+          shipped an interactive verified-improvements map (ohio-river-way-map) from the collected
+          data.
+        </li>
+        <li>
+          Built a stakeholder contact database and live dashboard coordinating outreach across partner
+          organizations, municipalities, and community groups along the river corridor.
+        </li>
+        <li>
+          Translated technical audit findings into a reusable outreach campaign pack and a 48&times;36
+          conference poster for non-technical stakeholders, converting community needs into actionable
+          plans.
+        </li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="row">
+        <span class="title">Crew Member &mdash; Taco Bell &bull; Floyds Knobs, IN</span>
+        <span class="meta">Aug 2021 &ndash; Present</span>
+      </div>
+      <ul>
+        <li>
+          Entrusted with opening and closing responsibilities and peak-hour throughput while carrying
+          a full Speed School engineering course load.
+        </li>
+      </ul>
+    </div>
+
+    <h2>Honors &amp; Certifications</h2>
+    <div class="entry">
+      <ul>
+        <li>
+          First Year Leadership Program (top 10%) &bull; Dean&rsquo;s List: Fall 2024, Fall 2025,
+          Spring 2026 &bull; Anthropic (17 certifications) and Google Cloud (3 badges), Jun 2026
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
