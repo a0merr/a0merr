@@ -35,7 +35,7 @@ body {
   font-size: var(--body);
   /* Tuned so the whole resume lands on exactly one page. If you add content
    * and it spills, drop this to 1.14 before shrinking the font. */
-  line-height: 1.11;
+  line-height: 1.10;
   color: var(--ink);
   /* The page margin lives here rather than in @page so the horizontal rules
    * under section headings can span the full text column. */
@@ -108,13 +108,13 @@ h2 {
    * the rule below carry the design on their own. */
   letter-spacing: normal;
   text-transform: uppercase;
-  margin: 4pt 0 0;
+  margin: 3pt 0 0;
   padding: 0 0 1.5pt;
   border-bottom: 0.8pt solid var(--rule);
 }
 
 .entry {
-  margin-top: 2pt;
+  margin-top: 1pt;
 }
 
 /* Title on the left, date/meta on the right, on one baseline. */
