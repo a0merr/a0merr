@@ -74,15 +74,39 @@ a {
   text-align: left;
 }
 
+/* States availability outright. A December 2027 graduation puts the
+ * full-time start date off the usual May cycle, which a reader would
+ * otherwise have to work out from the Education section. */
+.availability {
+  margin: 2pt 0 0;
+}
+
+/* Content that belongs only on the copy sent directly to an employer, not on
+ * the copy published to a public URL. `build.ps1` hides this by default and
+ * keeps it with -WithPhone. See resume/README.md. */
+.private {
+  /* no styling of its own - visibility is controlled at build time */
+}
+
 /* ---- Sections ---------------------------------------------------------- */
 
 h2 {
   font-size: 9pt;
   font-weight: 700;
-  /* The wide tracking is what gives the original its "E D U C A T I O N"
-   * look. letter-spacing adds space after the final letter too, so the
-   * rule is drawn on the container, not the text. */
-  letter-spacing: 0.22em;
+  /* Deliberately NOT letter-spaced.
+   *
+   * The original design tracked these out to "E D U C A T I O N". It looks
+   * good, but any tracking above roughly 0.05em makes PDF text extraction
+   * insert a space between every letter, so the heading comes out as
+   * "E D U C A T I O N" in the extracted text too. Applicant-tracking
+   * systems use headings to split a resume into sections; one that cannot
+   * match "Education" may fail to record the degree and school at all.
+   *
+   * Measured on this document: 0.22em and 0.09em both extract spaced out,
+   * `normal` extracts as "EDUCATION". It is effectively all-or-nothing -
+   * reducing the tracking does not buy a middle ground. Bold, uppercase and
+   * the rule below carry the design on their own. */
+  letter-spacing: normal;
   text-transform: uppercase;
   margin: 4pt 0 0;
   padding: 0 0 1.5pt;

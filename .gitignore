@@ -1,0 +1,9 @@
+# The resume variant that keeps the phone number. Built with
+#   pwsh resume/build.ps1 -WithPhone
+# for sending directly to an employer. It is deliberately never committed:
+# this repo is public, and git history is permanent, so anything published
+# here stays retrievable even after a later deletion.
+Andrew_Merritt_Resume_full.pdf
+
+# Temporary page the public build renders from (see resume/build.ps1).
+resume/.build-public.html
