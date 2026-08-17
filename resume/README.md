@@ -33,12 +33,21 @@ Resume badge links to. Requires Chrome and Node.js.
 
 ## If content overflows to a second page
 
-Adjust in this order, checking the render after each step:
+Take it from whitespace between blocks before taking it from the type — a
+smaller font is the most visible change and the least effective per point
+saved. In order:
 
-1. `line-height` on `body` (currently `1.14`) — down to about `1.12`.
-2. `margin-top` on `h2` and `.entry`.
-3. Body `padding` (the page margins).
-4. `--body` font size — last resort; below about `8.5pt` it reads as cramped.
+1. `margin-top` on `.entry` (currently `2pt`) and `h2` (`4pt`). Roughly 11
+   entries and 7 headings, so 1pt here is worth about a line and a half.
+2. `margin-top` on `li` (currently `0.3pt`), about 20 of them.
+3. `line-height` on `body` (currently `1.11`). Below about `1.08` the text
+   starts to look crowded.
+4. Body `padding` — but keep at least `18pt` (0.25in) bottom margin, since
+   many printers cannot print closer to the edge than that.
+5. `--body` font size — last resort; below about `8.5pt` it reads as cramped.
+
+Shortening a bullet that wraps by only two or three words is often worth more
+than any of these, and costs nothing visually.
 
 ## Notes
 
