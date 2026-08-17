@@ -17,6 +17,13 @@
 
 [CmdletBinding()]
 param(
+    # Keep the phone number. Produces the copy meant to be sent directly to an
+    # employer, written to Andrew_Merritt_Resume_full.pdf, which .gitignore
+    # keeps out of the repo. Without this switch the build produces the public
+    # copy - the one served from a public GitHub URL - with the phone number
+    # omitted.
+    [switch]$WithPhone,
+
     # Skip the post-render verification (not recommended).
     [switch]$SkipVerify
 )
@@ -61,7 +68,12 @@ function Invoke-Native {
 $ResumeDir = $PSScriptRoot
 $RepoRoot = Split-Path $ResumeDir -Parent
 $Source = Join-Path $ResumeDir 'resume.html'
-$Output = Join-Path $RepoRoot 'Andrew_Merritt_Resume.pdf'
+$Output = if ($WithPhone) {
+    Join-Path $RepoRoot 'Andrew_Merritt_Resume_full.pdf'
+}
+else {
+    Join-Path $RepoRoot 'Andrew_Merritt_Resume.pdf'
+}
 
 if (-not (Test-Path $Source)) { throw "Missing source: $Source" }
 
@@ -78,9 +90,33 @@ if (-not $Chrome) { throw "Chrome not found. Looked in:`n  $($ChromeCandidates -
 # Chrome renders to a temp file first so a failed run can't leave a truncated
 # PDF sitting at the path the README links to.
 $Temp = Join-Path ([System.IO.Path]::GetTempPath()) "resume-$PID.pdf"
-$SourceUri = ([System.Uri](Resolve-Path $Source).Path).AbsoluteUri
+
+<#
+    For the public build, hide anything marked .private by rendering a copy of
+    the page with one extra rule injected.
+
+    The copy has to live in this same directory, because resume.html links
+    resume.css with a relative href - rendering from the temp directory would
+    silently produce an unstyled page. It is removed in the finally block
+    below whether or not the build succeeds.
+#>
+$RenderSource = $Source
+$Scratch = $null
+if (-not $WithPhone) {
+    $Scratch = Join-Path $ResumeDir '.build-public.html'
+    $html = Get-Content $Source -Raw
+    if ($html -notmatch '</head>') { throw 'resume.html has no </head> to inject into.' }
+    $html = $html -replace '</head>', "  <style>.private { display: none; }</style>`n  </head>"
+    Set-Content -Path $Scratch -Value $html -Encoding utf8
+    $RenderSource = $Scratch
+}
+
+$SourceUri = ([System.Uri](Resolve-Path $RenderSource).Path).AbsoluteUri
+
+try {
 
 Write-Host "Rendering $Source" -ForegroundColor Cyan
+Write-Host ("  variant: {0}" -f $(if ($WithPhone) { 'full (includes phone number)' } else { 'public (phone number omitted)' })) -ForegroundColor DarkGray
 
 # --no-pdf-header-footer suppresses Chrome's default date/URL/page-number
 # furniture. --run-all-compositor-stages-before-draw and the virtual time
@@ -128,3 +164,10 @@ Move-Item $Stamped $Output -Force
 
 $Size = [math]::Round((Get-Item $Output).Length / 1KB, 1)
 Write-Host "Built $Output ($Size KB)" -ForegroundColor Green
+
+}
+finally {
+    # Runs even if a step above threw, so the injected copy never lingers in
+    # the source directory to be edited or committed by mistake.
+    if ($Scratch -and (Test-Path $Scratch)) { Remove-Item $Scratch -Force -ErrorAction SilentlyContinue }
+}

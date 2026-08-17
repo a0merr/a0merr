@@ -14,11 +14,27 @@ here, not the PDF.
 ## Build
 
 ```powershell
-pwsh resume/build.ps1
+pwsh resume/build.ps1              # public copy   -> Andrew_Merritt_Resume.pdf
+pwsh resume/build.ps1 -WithPhone   # full copy     -> Andrew_Merritt_Resume_full.pdf
 ```
 
-Writes `Andrew_Merritt_Resume.pdf` to the repo root — the path the README's
-Resume badge links to. Requires Chrome and Node.js.
+Requires Chrome and Node.js.
+
+### Two variants, on purpose
+
+`Andrew_Merritt_Resume.pdf` is committed and served from a public GitHub URL.
+The default build **omits the phone number** from it. Anything marked
+`class="private"` in `resume.html` is hidden by injecting a single
+`display: none` rule at render time.
+
+`-WithPhone` keeps it and writes to `Andrew_Merritt_Resume_full.pdf`, which
+`.gitignore` excludes. That is the copy to attach to an application.
+
+The reason for the split: a PDF emailed to a recruiter and a file served from
+a public URL are different exposure classes, and git history is permanent —
+anything committed here stays retrievable from old objects even after it is
+deleted from the current version. Decide once, at build time, rather than
+remembering each time.
 
 ## What `verify.js` checks
 
@@ -53,8 +69,25 @@ than any of these, and costs nothing visually.
 
 - Fonts are `Carlito, Calibri`. They are metric-compatible, so the layout is
   identical whichever is installed — Calibri on Windows, Carlito on Linux CI.
-- Section headings use wide `letter-spacing`. It matches the original design,
-  but be aware it makes headings extract as `E D U C A T I O N`, which some
-  applicant-tracking systems will not match against the keyword "Education".
-  The body text, which is what those systems actually parse for skills and
-  titles, extracts cleanly.
+- Section headings are **not** letter-spaced, deliberately. The original
+  design tracked them out to `E D U C A T I O N`, which looks good but makes
+  the heading extract that way as text too — and applicant-tracking systems
+  use headings to split a resume into sections. Measured on this document:
+
+  | `letter-spacing` | extracts as |
+  |---|---|
+  | `0.22em` | `E D U C AT I O N` |
+  | `0.09em` | `E D U C AT I O N` |
+  | `normal` | `EDUCATION` |
+
+  It is effectively all-or-nothing; reducing the tracking buys no middle
+  ground. If you ever want the tracked look back, that is the trade you are
+  making.
+
+- Check extraction after any styling change:
+
+  ```powershell
+  pdftotext Andrew_Merritt_Resume.pdf - | Select-Object -First 12
+  ```
+
+  What you see there is roughly what a resume parser sees.
