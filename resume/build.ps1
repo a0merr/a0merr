@@ -99,17 +99,32 @@ if ($exit -ne 0) { throw "Chrome exited with code $exit." }
 if (-not (Test-Path $Temp)) { throw 'Chrome produced no output.' }
 
 # --- Stamp /Author --------------------------------------------------------
+# Still working on a temp file: $Output is the path the README badge serves,
+# so nothing lands there until the build has passed verification.
+$Stamped = Join-Path ([System.IO.Path]::GetTempPath()) "resume-$PID-stamped.pdf"
+
 Write-Host 'Setting document metadata' -ForegroundColor Cyan
-$exit = Invoke-Native 'node' @((Join-Path $ResumeDir 'set-metadata.js'), $Temp, $Output) -PassThroughOutput
-if ($exit -ne 0) { Remove-Item $Temp -Force -ErrorAction SilentlyContinue; throw 'Metadata step failed.' }
-Remove-Item $Temp -Force
+$exit = Invoke-Native 'node' @((Join-Path $ResumeDir 'set-metadata.js'), $Temp, $Stamped) -PassThroughOutput
+Remove-Item $Temp -Force -ErrorAction SilentlyContinue
+if ($exit -ne 0) {
+    Remove-Item $Stamped -Force -ErrorAction SilentlyContinue
+    throw 'Metadata step failed.'
+}
 
 # --- Verify ---------------------------------------------------------------
 if (-not $SkipVerify) {
     Write-Host 'Verifying' -ForegroundColor Cyan
-    $exit = Invoke-Native 'node' @((Join-Path $ResumeDir 'verify.js'), $Output) -PassThroughOutput
-    if ($exit -ne 0) { throw 'Verification failed - see output above.' }
+    $exit = Invoke-Native 'node' @((Join-Path $ResumeDir 'verify.js'), $Stamped) -PassThroughOutput
+    if ($exit -ne 0) {
+        # Leave the previously published PDF untouched. A failed build must not
+        # replace a good resume with a broken one.
+        Remove-Item $Stamped -Force -ErrorAction SilentlyContinue
+        throw 'Verification failed - see output above. Existing PDF left unchanged.'
+    }
 }
+
+# Only now is it safe to publish.
+Move-Item $Stamped $Output -Force
 
 $Size = [math]::Round((Get-Item $Output).Length / 1KB, 1)
 Write-Host "Built $Output ($Size KB)" -ForegroundColor Green

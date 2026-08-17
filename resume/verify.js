@@ -115,9 +115,14 @@ for (const field of ['Title', 'Author']) {
 
 // --- Result ---------------------------------------------------------------
 
+/* Failures go to stdout, not stderr. PowerShell turns each stderr line from a
+ * native process into an ErrorRecord, and an empty one stringifies to
+ * "System.Management.Automation.RemoteException" - which buries the actual
+ * message. The exit code is what signals failure; stdout just has to be
+ * readable. */
 if (failures.length) {
-  console.error('\nFAILED:');
-  failures.forEach((f) => console.error(`  - ${f}`));
+  console.log('FAILED:');
+  failures.forEach((f) => console.log(`  - ${f}`));
   process.exit(1);
 }
 console.log('  OK');
