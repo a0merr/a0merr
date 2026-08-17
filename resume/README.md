@@ -53,10 +53,10 @@ Take it from whitespace between blocks before taking it from the type — a
 smaller font is the most visible change and the least effective per point
 saved. In order:
 
-1. `margin-top` on `.entry` (currently `2pt`) and `h2` (`4pt`). Roughly 11
-   entries and 7 headings, so 1pt here is worth about a line and a half.
+1. `margin-top` on `.entry` (currently `1pt`) and `h2` (`3pt`). Roughly 11
+   entries and 8 headings, so 1pt here is worth about a line and a half.
 2. `margin-top` on `li` (currently `0.3pt`), about 20 of them.
-3. `line-height` on `body` (currently `1.11`). Below about `1.08` the text
+3. `line-height` on `body` (currently `1.10`). Below about `1.08` the text
    starts to look crowded.
 4. Body `padding` — but keep at least `18pt` (0.25in) bottom margin, since
    many printers cannot print closer to the edge than that.
@@ -64,6 +64,13 @@ saved. In order:
 
 Shortening a bullet that wraps by only two or three words is often worth more
 than any of these, and costs nothing visually.
+
+**These levers are close to spent.** The page currently fits with very little
+slack, and the values above are already near the bottom of their comfortable
+range. The next thing that overflows should be solved by cutting content, not
+by tightening further — a resume squeezed to `1.06` leading with 0pt between
+entries reads as cramped, and that impression costs more than the line saved.
+Adding a new role is a good moment to retire an old one.
 
 ## Notes
 

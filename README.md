@@ -5,7 +5,7 @@
 **Computer Science Student — University of Louisville**<br>
 J.B. Speed School of Engineering
 
-[![Roles Andrew works on: Computer Science Student, Software Developer, Quant & AI Enthusiast, seeking a Summer 2027 internship](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Software+Developer;Quant+%26+AI+Enthusiast;Seeking+a+Summer+2027+Internship)](https://github.com/a0merr)
+[![Roles Andrew works on: Computer Science Student, Software Developer, Quant & AI Enthusiast, seeking a Summer 2027 internship, available full-time from January 2028](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Software+Developer;Quant+%26+AI+Enthusiast;Seeking+a+Summer+2027+Internship;Full-Time+from+January+2028)](https://github.com/a0merr)
 
 [![Resume](https://img.shields.io/badge/Resume-PDF-2ea44f?style=flat&logo=adobeacrobatreader&logoColor=white)](Andrew_Merritt_Resume.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab425537a)
@@ -23,7 +23,7 @@ I build **autonomous AI systems** — like a research agent that trains models, 
 
 CS student at the University of Louisville (**3.62 GPA**, graduating **December 2027**), shipping clean software across AI agents and quantitative trading.
 
-📍 Louisville, KY &nbsp;·&nbsp; 🔭 Building autonomous AI research agents & quant models &nbsp;·&nbsp; 💼 Seeking a **Summer 2027** SWE internship — [reach out](mailto:a0merr05@louisville.edu)
+📍 Louisville, KY &nbsp;·&nbsp; 🔭 Building autonomous AI research agents & quant models &nbsp;·&nbsp; 💼 Seeking a **Summer 2027** SWE internship &nbsp;·&nbsp; 🎯 Available full-time from **January 2028** — [reach out](mailto:a0merr05@louisville.edu)
 
 ---
 
@@ -202,7 +202,7 @@ Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.ed
 
 <div align="center">
 
-*Available for a **Summer 2027** internship — feel free to reach out!*
+*Available for a **Summer 2027** internship, and full-time from **January 2028** — feel free to reach out!*
 
 📧 **a0merr05@louisville.edu**
 
