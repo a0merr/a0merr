@@ -11,8 +11,8 @@
     Run from anywhere:  pwsh resume/build.ps1
 
 .NOTES
-    Requires Google Chrome and Node.js. The PDF is written to the repo root,
-    which is the path the README's Resume badge links to.
+    Requires Google Chrome or Microsoft Edge, and Node.js. The PDF is written
+    to the repo root, which is the path the README's Resume badge links to.
 #>
 
 [CmdletBinding()]
@@ -77,18 +77,23 @@ else {
 
 if (-not (Test-Path $Source)) { throw "Missing source: $Source" }
 
-# --- Locate Chrome --------------------------------------------------------
-$ChromeCandidates = @(
+# --- Locate a Chromium browser --------------------------------------------
+# Chrome first, then Edge. Edge is the same Blink engine and accepts the same
+# --headless --print-to-pdf flags, so it renders this page identically and
+# serves as a drop-in fallback on a machine with no Chrome installed.
+$BrowserCandidates = @(
     "$env:ProgramFiles\Google\Chrome\Application\chrome.exe"
     "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe"
     "$env:LOCALAPPDATA\Google\Chrome\Application\chrome.exe"
+    "$env:ProgramFiles\Microsoft\Edge\Application\msedge.exe"
+    "${env:ProgramFiles(x86)}\Microsoft\Edge\Application\msedge.exe"
 )
-$Chrome = $ChromeCandidates | Where-Object { Test-Path $_ } | Select-Object -First 1
-if (-not $Chrome) { throw "Chrome not found. Looked in:`n  $($ChromeCandidates -join "`n  ")" }
+$Browser = $BrowserCandidates | Where-Object { Test-Path $_ } | Select-Object -First 1
+if (-not $Browser) { throw "No Chrome or Edge found. Looked in:`n  $($BrowserCandidates -join "`n  ")" }
 
 # --- Render ---------------------------------------------------------------
-# Chrome renders to a temp file first so a failed run can't leave a truncated
-# PDF sitting at the path the README links to.
+# The browser renders to a temp file first so a failed run can't leave a
+# truncated PDF sitting at the path the README links to.
 $Temp = Join-Path ([System.IO.Path]::GetTempPath()) "resume-$PID.pdf"
 
 <#
@@ -122,7 +127,7 @@ Write-Host ("  variant: {0}" -f $(if ($WithPhone) { 'full (includes phone number
 # furniture. --run-all-compositor-stages-before-draw and the virtual time
 # budget make sure layout has fully settled before the snapshot is taken,
 # so the output is byte-stable between runs.
-$exit = Invoke-Native $Chrome @(
+$exit = Invoke-Native $Browser @(
     '--headless'
     '--disable-gpu'
     '--no-pdf-header-footer'
@@ -131,8 +136,8 @@ $exit = Invoke-Native $Chrome @(
     "--print-to-pdf=$Temp"
     $SourceUri
 )
-if ($exit -ne 0) { throw "Chrome exited with code $exit." }
-if (-not (Test-Path $Temp)) { throw 'Chrome produced no output.' }
+if ($exit -ne 0) { throw "$(Split-Path $Browser -Leaf) exited with code $exit." }
+if (-not (Test-Path $Temp)) { throw 'The browser produced no output.' }
 
 # --- Stamp /Author --------------------------------------------------------
 # Still working on a temp file: $Output is the path the README badge serves,
