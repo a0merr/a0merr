@@ -21,7 +21,7 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: Generate Pac-Man SVGs (light + dark)
-        uses: abozanona/pacman-contribution-graph@d40fb3b3cc8017d7bfe915391a36c10ceaf274f7 # main, 2026-07-02
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa # main, 2026-07-02
         with:
           github_user_name: ${{ github.repository_owner }}
           games: pacman
