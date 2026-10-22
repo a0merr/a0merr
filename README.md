@@ -55,6 +55,9 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **December 
 **[SigmaHQ/sigma](https://github.com/SigmaHQ/sigma)** — [PR #6080](https://github.com/SigmaHQ/sigma/pull/6080) *· open, maintainer-approved ✅*<br>
 Contributed to **Sigma**, the open standard for SIEM detection rules used across blue teams and threat-detection pipelines. Pinned CI test/validation deps into dedicated requirements files and added `pip` caching across the GitHub Actions workflows — an unrelated upstream release can't break contributor PRs, and CI stops re-downloading each run. Validated locally (Python 3.14): tests pass, `sigma check` clean, no detection rules touched.
 
+**[siglint](https://github.com/a0merr/siglint)** &nbsp;·&nbsp; `Python` `Detection Engineering` `SARIF`<br>
+Detection-as-code CLI that scans logs against **Sigma rules** and pushes findings into GitHub's **Security tab** via SARIF. Implements Sigma's condition grammar (`and/or/not`, `1 of selection_*`) and modifiers (`windash`, `cidr`, `re`…) — **99.2% of SigmaHQ's 3,161 rules load and validate**. Thresholds catch brute force per source IP; `--fail-on high` gates CI.
+
 ---
 
 ### 📂 Featured Projects
