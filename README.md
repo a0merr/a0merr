@@ -5,7 +5,7 @@
 **Computer Science Student — University of Louisville**<br>
 J.B. Speed School of Engineering
 
-[![Roles Andrew works on: Computer Science Student, Software Developer, Quant & AI Enthusiast, seeking a Summer 2027 internship, available full-time from January 2028](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Software+Developer;Quant+%26+AI+Enthusiast;Seeking+a+Summer+2027+Internship;Full-Time+from+January+2028)](https://github.com/a0merr)
+[![Roles Andrew works on: Computer Science Student, Cybersecurity Focus, AI & Agents, CIO at EPM Enterprises, seeking a Summer 2027 internship, available full-time from January 2028](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Cybersecurity+Focus;AI+%26+Agents;CIO+%40+EPM+Enterprises;Seeking+a+Summer+2027+Internship;Full-Time+from+January+2028)](https://github.com/a0merr)
 
 [![Resume](https://img.shields.io/badge/Resume-PDF-2ea44f?style=flat&logo=adobeacrobatreader&logoColor=white)](Andrew_Merritt_Resume.pdf)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab425537a)
@@ -19,11 +19,11 @@ J.B. Speed School of Engineering
 
 ### 👋 About Me
 
-I build **autonomous AI systems** — like a research agent that trains models, reads its own results, and rewrites its next experiment, no human in the loop.
+**Cybersecurity**-focused CS student with a deep interest in **AI and autonomous agents** — I build systems that secure, automate, and reason on their own, like a research agent that trains models, reads its own results, and rewrites its next experiment with no human in the loop.
 
-CS student at the University of Louisville (**3.62 GPA**, graduating **December 2027**), shipping clean software across AI agents and quantitative trading.
+CS student at the University of Louisville (**3.62 GPA**, graduating **December 2027**) and **CIO of EPM Enterprises**, shipping clean, secure software across security tooling, AI agents, and quantitative systems.
 
-📍 Louisville, KY &nbsp;·&nbsp; 🔭 Building autonomous AI research agents & quant models &nbsp;·&nbsp; 💼 Seeking a **Summer 2027** SWE internship &nbsp;·&nbsp; 🎯 Available full-time from **January 2028** — [reach out](mailto:a0merr05@louisville.edu)
+📍 Louisville, KY &nbsp;·&nbsp; 🔐 Cybersecurity &nbsp;·&nbsp; 🔭 Building AI agents & security tooling &nbsp;·&nbsp; 🏢 CIO @ EPM Enterprises &nbsp;·&nbsp; 💼 Seeking a **Summer 2027** SWE internship &nbsp;·&nbsp; 🎯 Available full-time from **January 2028** — [reach out](mailto:a0merr05@louisville.edu)
 
 ---
 
