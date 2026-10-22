@@ -50,6 +50,13 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **December 
 
 ---
 
+### 🔐 Security & Open Source
+
+**[SigmaHQ/sigma](https://github.com/SigmaHQ/sigma)** — [PR #6080](https://github.com/SigmaHQ/sigma/pull/6080) *· open, maintainer-approved ✅*<br>
+Contributed to **Sigma**, the open standard for SIEM detection rules used across blue teams and threat-detection pipelines. Pinned CI test/validation deps into dedicated requirements files and added `pip` caching across the GitHub Actions workflows — an unrelated upstream release can't break contributor PRs, and CI stops re-downloading each run. Validated locally (Python 3.14): tests pass, `sigma check` clean, no detection rules touched.
+
+---
+
 ### 📂 Featured Projects
 
 <table>
@@ -95,19 +102,13 @@ Snake and Tetris on a custom ANSI engine with threaded input — Tetris has a 7-
 
 ---
 
-### 🌐 Open Source
-
-**[SigmaHQ/sigma](https://github.com/SigmaHQ/sigma)** — [PR #6080](https://github.com/SigmaHQ/sigma/pull/6080) *· open, maintainer-approved ✅*<br>
-Pinned CI test/validation deps into dedicated requirements files and added `pip` caching across the GitHub Actions workflows — an unrelated upstream release can't break contributor PRs, and CI stops re-downloading each run. Validated locally (Python 3.14): tests pass, `sigma check` clean, no detection rules touched.
-
----
-
 ### 🔒 Other Work
 
-Most of my building is private — mostly **quant trading and AI**:
+Cybersecurity is my academic focus — secure, production-minded engineering runs through everything I build. Most of my building is private:
 
-- **Quant** — sports-betting models, Polymarket/Kalshi odds-mispricing analysis, automated trading bots *(Python)*
+- **Security-minded engineering** — auth, secrets handling, and hardened CI across my projects (JWT sessions, bcrypt, gitleaks scanning, dependency pinning)
 - **AI / agents** — a personal LLM-dev sandbox, an OpenJarvis voice-assistant fork, and a self-developing *Hearts of Iron IV* AI *(C#)*
+- **Quant** — sports-betting models, Polymarket/Kalshi odds-mispricing analysis, automated trading bots *(Python)*
 
 Happy to walk through any of these — [reach out](mailto:a0merr05@louisville.edu).
 
