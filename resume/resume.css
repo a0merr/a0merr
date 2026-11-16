@@ -33,8 +33,9 @@ body {
 body {
   font-family: Carlito, Calibri, "Segoe UI", sans-serif;
   font-size: var(--body);
-  /* Tuned so the whole resume lands on exactly one page. If you add content
-   * and it spills, drop this to 1.14 before shrinking the font. */
+  /* Tuned so the whole resume lands on exactly one page. Below about 1.08
+   * the text looks crowded - if new content spills, cut content rather than
+   * tightening this further (see resume/README.md). */
   line-height: 1.10;
   color: var(--ink);
   /* The page margin lives here rather than in @page so the horizontal rules

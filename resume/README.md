@@ -7,18 +7,21 @@ here, not the PDF.
 |---|---|
 | `resume.html` | The content. This is the file you edit. |
 | `resume.css` | Print styling, sized in points to match the PDF page. |
-| `build.ps1` | Renders the PDF, sets metadata, verifies the result. |
+| `build.js` | Renders the PDF, sets metadata, verifies the result. |
+| `build.ps1` | Thin PowerShell wrapper around `build.js`. |
 | `set-metadata.js` | Stamps `/Title` and `/Author` onto Chrome's output. |
 | `verify.js` | Post-build checks; fails the build if any don't hold. |
 
 ## Build
 
-```powershell
-pwsh resume/build.ps1              # public copy   -> Andrew_Merritt_Resume.pdf
-pwsh resume/build.ps1 -WithPhone   # full copy     -> Andrew_Merritt_Resume_full.pdf
+```sh
+node resume/build.js                # public copy   -> Andrew_Merritt_Resume.pdf
+node resume/build.js --with-phone   # full copy     -> Andrew_Merritt_Resume_full.pdf
 ```
 
-Requires Chrome and Node.js.
+Works on Windows, macOS and Linux. `pwsh resume/build.ps1 [-WithPhone]` does
+the same thing. Requires Node.js and Chrome, Chromium or Edge; set
+`CHROME_PATH` to pick a specific browser.
 
 ### Two variants, on purpose
 
@@ -93,8 +96,9 @@ Adding a new role is a good moment to retire an old one.
 
 - Check extraction after any styling change:
 
-  ```powershell
-  pdftotext Andrew_Merritt_Resume.pdf - | Select-Object -First 12
+  ```sh
+  pdftotext Andrew_Merritt_Resume.pdf - | head -12                    # Linux / macOS
+  pdftotext Andrew_Merritt_Resume.pdf - | Select-Object -First 12     # PowerShell
   ```
 
   What you see there is roughly what a resume parser sees.
