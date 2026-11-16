@@ -75,7 +75,7 @@ An LLM agent that runs the whole ML research loop: hypothesis → experiment on 
 <td width="50%" valign="top">
 
 #### 📉 [axiom-backtest](https://github.com/a0merr/axiom-backtest) &nbsp;·&nbsp; `Python` `Quant`
-Event-driven backtester built to answer one question honestly: *would this survive out-of-sample, after costs?* No-look-ahead flow, 3 slippage models, and **walk-forward validation as a first-class feature** — the same loop runs backtest and live.
+Event-driven backtester built to answer one question honestly: *would this survive out-of-sample, after costs?* No-look-ahead flow, 4 slippage models, and **walk-forward validation as a first-class feature** — the same loop runs backtest and live.
 
 </td>
 <td width="50%" valign="top">
