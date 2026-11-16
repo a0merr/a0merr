@@ -8,6 +8,7 @@ J.B. Speed School of Engineering
 [![Roles Andrew works on: Computer Science Student, Cybersecurity Focus, AI & Agents, seeking a Summer 2027 internship, available full-time from January 2028](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&center=true&vCenter=true&width=600&lines=Computer+Science+Student;Cybersecurity+Focus;AI+%26+Agents;Seeking+a+Summer+2027+Internship;Full-Time+from+January+2028)](https://github.com/a0merr)
 
 [![Resume](https://img.shields.io/badge/Resume-PDF-2ea44f?style=flat&logo=adobeacrobatreader&logoColor=white)](Andrew_Merritt_Resume.pdf)
+[![Website](https://img.shields.io/badge/Website-a0merr.github.io-0b7366?style=flat&logo=googlechrome&logoColor=white)](https://a0merr.github.io)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/andrew-merritt-ab425537a)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/a0merr)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:a0merr05@louisville.edu)
