@@ -33,13 +33,13 @@ CS student at the University of Louisville (**3.62 GPA**, graduating **December 
 <div align="center">
 
 **Languages**<br>
-<img src="https://skillicons.dev/icons?i=py,cpp,c,cs,ts,js,java" alt="Python, C++, C, C#, TypeScript, JavaScript, Java" height="48" />
+<img src="https://skillicons.dev/icons?i=py,cpp,c,cs,ts,js,java,mysql" alt="Python, C++, C, C#, TypeScript, JavaScript, Java, SQL" height="48" />
 
 **Frameworks &amp; Runtimes**<br>
 <img src="https://skillicons.dev/icons?i=react,nodejs,express,spring" alt="React, Node.js, Express, Spring Boot" height="48" />
 
 **Expanding**<br>
-<img src="https://skillicons.dev/icons?i=mysql" alt="SQL" height="48" />
+<img src="https://skillicons.dev/icons?i=rust" alt="Rust" height="48" />
 
 **AI / ML**<br>
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat&logo=pytorch&logoColor=white)
