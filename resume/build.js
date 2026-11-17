@@ -14,6 +14,8 @@
  *                  which .gitignore keeps out of the repo - the copy to send
  *                  directly to an employer. Without it the build produces the
  *                  public copy, with anything marked class="private" hidden.
+ *                  The number comes from RESUME_PHONE or resume/private.json,
+ *                  never from a tracked file.
  *   --skip-verify  Skip the post-render checks (not recommended).
  *
  * Set CHROME_PATH to use a specific browser binary.
@@ -45,16 +47,24 @@ const OUTPUT = path.join(
   WITH_PHONE ? 'Andrew_Merritt_Resume_full.pdf' : 'Andrew_Merritt_Resume.pdf'
 );
 
+/* resume.html is a public file, so the phone number is not in it - only this
+ * placeholder is. --with-phone fills it in from RESUME_PHONE or from
+ * private.json, which .gitignore excludes. */
+const PHONE_TOKEN = '{{PHONE}}';
+const PRIVATE_FILE = path.join(RESUME_DIR, 'private.json');
+// Anything shaped like a North American phone number, e.g. (555) 555-0100.
+const PHONE_SHAPED = /\(?\b\d{3}\)?[\s.-]\d{3}[\s.-]\d{4}\b/;
+
 /* Every intermediate file lives in resume/ rather than the OS temp directory,
  * for two reasons:
- *   - The public variant renders from a copy of resume.html, and that copy has
+ *   - Both variants render from a copy of resume.html, and that copy has
  *     to sit next to resume.css: the stylesheet is linked with a relative href,
  *     so a copy anywhere else would silently render unstyled.
  *   - Chromium installed as a snap or flatpak (the default on Ubuntu) gets a
  *     private /tmp. Told to print to /tmp/x.pdf, it reports success and writes
  *     the file somewhere this process cannot see.
  * All of them match resume/.build-* in .gitignore and are removed on exit. */
-const SCRATCH_HTML = path.join(RESUME_DIR, '.build-public.html');
+const SCRATCH_HTML = path.join(RESUME_DIR, '.build-render.html');
 const RENDERED = path.join(RESUME_DIR, `.build-${process.pid}.pdf`);
 const STAMPED = path.join(RESUME_DIR, `.build-${process.pid}-stamped.pdf`);
 
@@ -119,22 +129,61 @@ function cleanup() {
   }
 }
 
+/* The phone number for the full variant. RESUME_PHONE wins; otherwise
+ * private.json, a local file of the form { "phone": "..." }. */
+function readPhone() {
+  let phone = process.env.RESUME_PHONE;
+  if (!phone && fs.existsSync(PRIVATE_FILE)) {
+    try {
+      phone = JSON.parse(fs.readFileSync(PRIVATE_FILE, 'utf8')).phone;
+    } catch (err) {
+      throw new Error(`Could not read ${PRIVATE_FILE}: ${err.message}`);
+    }
+  }
+  if (typeof phone !== 'string' || !phone.trim()) {
+    throw new Error(
+      '--with-phone needs a phone number, and none is configured.\n' +
+        'Set RESUME_PHONE, or copy resume/private.example.json to resume/private.json\n' +
+        'and put the real number in it. private.json is in .gitignore; keep it that way.'
+    );
+  }
+  return phone.trim();
+}
+
+function escapeHtml(s) {
+  const entities = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+  return s.replace(/[&<>"']/g, (c) => entities[c]);
+}
+
 function build() {
   if (!fs.existsSync(SOURCE)) throw new Error(`Missing source: ${SOURCE}`);
   const browser = findBrowser();
 
-  // For the public build, hide anything marked .private by rendering a copy of
-  // the page with one extra rule injected.
-  let renderSource = SOURCE;
-  if (!WITH_PHONE) {
-    const html = fs.readFileSync(SOURCE, 'utf8');
-    if (!html.includes('</head>')) throw new Error('resume.html has no </head> to inject into.');
-    fs.writeFileSync(
-      SCRATCH_HTML,
-      html.replace('</head>', '  <style>.private { display: none; }</style>\n  </head>')
-    );
-    renderSource = SCRATCH_HTML;
+  const source = fs.readFileSync(SOURCE, 'utf8');
+  if (!source.includes('</head>')) throw new Error('resume.html has no </head> to inject into.');
+  if (!source.includes(PHONE_TOKEN)) {
+    throw new Error(`resume.html has no ${PHONE_TOKEN} placeholder for the phone number.`);
   }
+  // Checked on every build, including the public one, so a number pasted back
+  // into the source is caught before it can be committed.
+  if (PHONE_SHAPED.test(source)) {
+    throw new Error(
+      'resume.html contains what looks like a phone number. That file is public.\n' +
+        `Use the ${PHONE_TOKEN} placeholder and keep the number in resume/private.json.`
+    );
+  }
+
+  // Always render from a copy. The full variant gets the number substituted
+  // in; the public variant gets the placeholder removed and anything marked
+  // .private hidden with one injected rule.
+  const html = WITH_PHONE
+    ? source.split(PHONE_TOKEN).join(escapeHtml(readPhone()))
+    : source
+        .split(PHONE_TOKEN)
+        .join('')
+        .replace('</head>', '  <style>.private { display: none; }</style>\n  </head>');
+  fs.writeFileSync(SCRATCH_HTML, html);
+  const renderSource = SCRATCH_HTML;
 
   console.log(`Rendering ${SOURCE}`);
   console.log(`  variant: ${WITH_PHONE ? 'full (includes phone number)' : 'public (phone number omitted)'}`);

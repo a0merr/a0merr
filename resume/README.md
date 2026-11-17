@@ -11,6 +11,7 @@ here, not the PDF.
 | `build.ps1` | Thin PowerShell wrapper around `build.js`. |
 | `set-metadata.js` | Stamps `/Title` and `/Author` onto Chrome's output. |
 | `verify.js` | Post-build checks; fails the build if any don't hold. |
+| `private.example.json` | Template for `private.json`, the untracked file that holds the phone number. |
 
 ## Build
 
@@ -38,6 +39,23 @@ a public URL are different exposure classes, and git history is permanent —
 anything committed here stays retrievable from old objects even after it is
 deleted from the current version. Decide once, at build time, rather than
 remembering each time.
+
+### Where the phone number lives
+
+Not in this repo. `resume.html` is as public as the PDF, so it carries a
+`{{PHONE}}` placeholder instead of the number. `--with-phone` fills it in
+from, in order:
+
+1. the `RESUME_PHONE` environment variable, or
+2. `resume/private.json`. Copy `private.example.json` to that name and put
+   the real number in. `.gitignore` excludes it.
+
+With neither set, `--with-phone` stops with a message saying so. The public
+build needs neither.
+
+Every build, public included, also refuses to run if `resume.html` contains
+anything shaped like a phone number, so one can't be pasted back into the
+source and committed by accident.
 
 ## What `verify.js` checks
 
