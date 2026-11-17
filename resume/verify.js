@@ -7,7 +7,8 @@
  *   1. The resume is exactly one page.
  *   2. No link points at a bare domain. This is the specific bug that shipped
  *      once already: the "LinkedIn" link pointed at https://www.linkedin.com/
- *      rather than the profile, so clicking it went nowhere useful.
+ *      rather than the profile, so clicking it went nowhere useful. The
+ *      personal site is exempt: its home page is the destination.
  *   3. /Title and /Author are set.
  *
  * Objects are resolved the way a reader resolves them - start at the final
@@ -80,6 +81,8 @@ if (pages !== 1) failures.push(`expected exactly 1 page, found ${pages}`);
 
 // --- 2. Links -------------------------------------------------------------
 
+const OWN_SITE = /^https?:\/\/a0merr\.github\.io\/?$/;
+
 console.log('  links:');
 for (const num of [...table.keys()].sort((a, b) => a - b)) {
   let body;
@@ -89,8 +92,9 @@ for (const num of [...table.keys()].sort((a, b) => a - b)) {
   if (!uri) continue;
   const url = uri[1];
   // A URL with nothing after the host is almost always a linking mistake:
-  // the intended target was a specific page or profile.
-  const bare = /^https?:\/\/[^/]+\/?$/.test(url);
+  // the intended target was a specific page or profile. The one exception is
+  // the personal site, where the home page is the destination.
+  const bare = /^https?:\/\/[^/]+\/?$/.test(url) && !OWN_SITE.test(url);
   console.log(`    ${url}${bare ? '   <-- BARE DOMAIN' : ''}`);
   if (bare) failures.push(`link points at a bare domain: ${url}`);
 }
