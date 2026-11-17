@@ -46,7 +46,9 @@ remembering each time.
   link pointed at `https://www.linkedin.com/` instead of the profile, so
   clicking it went to LinkedIn's front page. It shipped in two revisions
   before anyone noticed, because the *visible text* read "LinkedIn" and looked
-  fine — only the link target was wrong.
+  fine — only the link target was wrong. The personal site
+  (`https://a0merr.github.io/`) is the one allowed exception: its home page is
+  the destination.
 - **`/Title` and `/Author` are set.** An earlier revision had `/Author` set to
   the literal placeholder `Un-named`.
 
