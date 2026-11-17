@@ -23,16 +23,15 @@
     </p>
 
     <p class="summary">
-      Computer Science student (3.62 GPA, graduating December 2027) who builds quantitative
-      infrastructure and autonomous AI agents in Python, Java, and C++. Ships independent projects
-      end to end &mdash; an event-driven backtesting framework with a 126&times; vectorization
-      speedup, a self-directed ML research agent, a Spring Boot/PostgreSQL trade journal &mdash; and
-      contributes CI supply-chain hardening to SigmaHQ, the open standard for detection engineering.
+      Cybersecurity-focused Computer Science student (3.62 GPA, graduating December 2027) who builds
+      detection tooling, autonomous AI agents, and quantitative infrastructure in Python, Java, and
+      C++ &mdash; shipped end to end: a Sigma detection-as-code CLI that validates 99.2% of
+      SigmaHQ&rsquo;s rules, a self-directed ML research agent, and a 126&times;-faster backtester.
     </p>
 
     <p class="availability">
-      Seeking a <strong>Summer 2027</strong> software engineering internship &mdash; available
-      full-time from <strong>January 2028</strong>.
+      Seeking a <strong>Summer 2027</strong> software engineering or security internship &mdash;
+      available full-time from <strong>January 2028</strong>.
     </p>
 
     <h2>Education</h2>
@@ -59,9 +58,32 @@
       <div><span class="label">Languages</span> Python, C++, C, Java, C#, TypeScript, JavaScript, SQL (expanding: Rust)</div>
       <div><span class="label">AI / ML</span> PyTorch, NumPy, Pandas, Anthropic API, LLM agent orchestration and tool-use design</div>
       <div><span class="label">Systems</span> Spring Boot, PostgreSQL, React, Node.js, REST API design, Docker, GitHub Actions CI/CD, Testcontainers, Linux</div>
+      <div><span class="label">Security</span> Sigma detection rules, SARIF, detection as code, JWT and bcrypt, secret scanning (gitleaks), dependency pinning</div>
     </div>
 
     <h2>Projects</h2>
+
+    <div class="entry">
+      <div class="row">
+        <span class="title">siglint &mdash; Detection-as-Code CLI</span>
+        <span class="meta">Python &bull; github.com/a0merr/siglint</span>
+      </div>
+      <ul>
+        <li>
+          Built a CLI that scans syslog and JSON logs against Sigma rules and emits SARIF 2.1.0, so
+          findings land in GitHub&rsquo;s Security tab; --fail-on high gates a CI pipeline.
+        </li>
+        <li>
+          Wrote a recursive-descent parser for Sigma&rsquo;s condition grammar (and/or/not,
+          1 of selection_*) plus regex, CIDR and Windows-dash modifiers: 3,136 of SigmaHQ&rsquo;s
+          3,161 rules (99.2%) load and validate.
+        </li>
+        <li>
+          Added per-source-IP sliding-window thresholds that catch brute force, e.g. 5 failed SSH
+          logins in a minute.
+        </li>
+      </ul>
+    </div>
 
     <div class="entry">
       <div class="row">
@@ -130,35 +152,22 @@
       </ul>
     </div>
 
-    <div class="entry">
-      <div class="row">
-        <span class="title">Terminal Arcade</span>
-        <span class="meta">Python &bull; Standard Library Only</span>
-      </div>
-      <ul>
-        <li>
-          Rebuilt Snake and Tetris on a custom ANSI rendering engine with threaded input; Tetris ships
-          a 7-bag randomizer, ghost piece, hard drop, and next-piece preview. Cross-platform, zero
-          external dependencies.
-        </li>
-      </ul>
-    </div>
-
     <div class="additional">
-      <span class="label">Additional</span> python-baseline &mdash; production-ready template (tests,
-      CI, Docker, pre-commit) &bull; ASList&lt;T&gt; generic sorted container (C++ templates) &bull;
-      IDD Programming Challenge 2026 (TypeScript, CI)
+      <span class="label">Additional</span> Terminal Arcade &mdash; Snake and Tetris on a custom ANSI
+      engine (Python, standard library only) &bull; python-baseline &mdash; production-ready template
+      (tests, CI, Docker, pre-commit) &bull; ASList&lt;T&gt; generic sorted container (C++ templates)
+      &bull; IDD Programming Challenge 2026 (TypeScript, CI)
     </div>
 
     <h2>Open Source</h2>
     <div class="entry">
       <div class="row">
         <span class="title">SigmaHQ / sigma &mdash; Pull Request #6080</span>
-        <span class="meta">Under Review</span>
+        <span class="meta">Approved &bull; Awaiting Merge</span>
       </div>
       <ul>
         <li>
-          Hardened the CI supply chain of the open detection-rule standard (4,000+ rules used across
+          Hardened the CI supply chain of the open detection-rule standard (3,000+ rules used across
           SIEM platforms) by pinning test and validation dependencies into dedicated requirements
           files, so an upstream release can no longer break contributor pull requests.
         </li>
@@ -212,8 +221,8 @@
       </div>
       <ul>
         <li>
-          Entrusted with opening and closing responsibilities and peak-hour throughput across five
-          years, alongside a full Speed School engineering course load.
+          Trusted with opening, closing, and peak-hour throughput for five years, alongside a full
+          engineering course load.
         </li>
       </ul>
     </div>
