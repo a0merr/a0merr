@@ -132,21 +132,23 @@
 
     <div class="entry">
       <div class="row">
-        <span class="title">Terminal Arcade</span>
-        <span class="meta">Python &bull; Standard Library Only</span>
+        <span class="title">siglint &mdash; Detection-as-Code CLI</span>
+        <span class="meta">Python &bull; Sigma &bull; SARIF &bull; github.com/a0merr/siglint</span>
       </div>
       <ul>
         <li>
-          Rebuilt Snake and Tetris on a custom ANSI rendering engine with threaded input; Tetris ships
-          a 7-bag randomizer, ghost piece, hard drop, and next-piece preview. Cross-platform, zero
-          external dependencies.
+          Scans logs against Sigma detection rules and reports findings to GitHub&rsquo;s Security tab
+          via SARIF. Implements Sigma&rsquo;s condition grammar and modifiers (windash, cidr, re):
+          99.2% of the 3,161 rules in SigmaHQ&rsquo;s main rule set load and validate; --fail-on high
+          gates a CI pipeline.
         </li>
       </ul>
     </div>
 
     <div class="additional">
       <span class="label">Additional</span> python-baseline &mdash; production-ready template (tests,
-      CI, Docker, pre-commit) &bull; ASList&lt;T&gt; generic sorted container (C++ templates) &bull;
+      CI, Docker, pre-commit) &bull; Terminal Arcade &mdash; Snake and Tetris on a custom ANSI engine
+      (standard library only) &bull; ASList&lt;T&gt; generic sorted container (C++ templates) &bull;
       IDD Programming Challenge 2026 (TypeScript, CI)
     </div>
 
