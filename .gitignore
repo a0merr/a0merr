@@ -5,6 +5,10 @@
 # here stays retrievable even after a later deletion.
 Andrew_Merritt_Resume_full.pdf
 
+# Where that build reads the phone number from (see resume/README.md). Local
+# only, for the same reason.
+resume/private.json
+
 # Scratch files the build renders through (see resume/build.js). Removed when
 # the build exits; listed here in case a run is killed mid-way.
 resume/.build-*
